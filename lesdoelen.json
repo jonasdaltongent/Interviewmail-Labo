@@ -1,0 +1,41 @@
+{
+  "lesid": "interviewmail-labo",
+  "lesnr": "03",
+  "titel": "De formele e-mail",
+  "week": 7,
+  "schooljaar": "2026-2027",
+  "datum": "2026-10-15",
+  "_opmerking_datum": "Donderdag 15 oktober 2026, 8ste lesuur, lokaal 18 (rooster van 25-09-2026). Pas aan als de les verschuift.",
+  "klasgroepen": [
+    "3 MWW"
+  ],
+  "_opmerking_klasgroepen": "De klasgroepcode moet '3 MWW' zijn (met spatie): daarmee vindt _tools/update_leerdoelen.py het blad. De echte klasnaam staat hieronder.",
+  "klasnaam": "3MWWE",
+  "finaliteit": "doorstroomfinaliteit",
+  "lesduur_minuten": 50,
+  "evaluatie": "summatief (portfolio)",
+  "deadline": "2026-10-16T20:00",
+  "bron": "https://github.com/jonasdaltongent/Interviewmail-Labo",
+  "doelen": [
+    {
+      "code": "BV2_04.01",
+      "rol": "kern"
+    },
+    {
+      "code": "BV2_02.08",
+      "rol": "ondersteunend"
+    },
+    {
+      "code": "BV2_02.08.02",
+      "rol": "ondersteunend"
+    },
+    {
+      "code": "BV2_02.13",
+      "rol": "ondersteunend"
+    },
+    {
+      "code": "BV2_04.04",
+      "rol": "voorbereidend"
+    }
+  ]
+}
