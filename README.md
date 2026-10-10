@@ -55,7 +55,7 @@ opbouw over, niet de zinnen. Ze staan op de lespagina (stap 2) en in deel 1 van 
 
 - **Startpagina**: *Wat heb je nodig?* in drie beelden (de opdracht, de lespagina, het werkdocument), *Na deze
   les kan je*, en *Vast?* als genummerde rij.
-- **Route** links, **één stap** in het midden, **checklist** rechts (22 taken). Op een smal scherm staat alles
+- **Route** links, **één stap** in het midden, **checklist** rechts (21 taken). Op een smal scherm staat alles
   onder elkaar.
 - De **titel van de pagina** begint met *Lespagina · Les 3*: zo heet de link in de opdracht en het tabblad in
   Chrome, naast het tabblad *Interviewmail*.
@@ -172,12 +172,12 @@ werkdocument. De e-mailregels komen uit `_vakinhoud/digitale-communicatie.md` (T
 
 ## 4. Verbetersleutel
 
-- **Deel 1**, rij 2 tot 6: aanspreking: *hallo* is te los en zonder naam; *Beste meneer Willems,* is beleefd en
+- **Deel 1**, rij 2 tot 6 (de citaten staan er al; de leerling verklaart in de laatste kolom): aanspreking: *hallo* is te los en zonder naam; *Beste meneer Willems,* is beleefd en
   persoonlijk · inleiding: Senne zegt niet wie hij is en namens wie; Noor wel · midden: Senne vraagt iets
   onhaalbaars (*morgen*) zonder duur of plaats; Noor zegt hoe lang, wanneer, waar en wat er met de antwoorden
   gebeurt · slot: Senne geeft geen termijn en bedankt niet echt; Noor vraagt een antwoord vóór een datum en
   bedankt vooraf · slotgroet: *thx* en een emoji, alleen een voornaam; Noor: *Met vriendelijke groeten,* en een
-  volledige handtekening. (Rij 1, het onderwerp, staat ingevuld.)
+  volledige handtekening. (Rij 1, het onderwerp, is al verklaard.)
 - **Deel 2**: a **Aan** · b **Cc** · c **Bcc** · d **Cc**. Vraag 1: een e-mailadres is een persoonsgegeven; in Cc
   ziet iedereen de adressen van de anderen; met Bcc niet (zoals `respondent-02` in les 2).
 - **Deel 3**, de e-mail: zie de criteria in `lesvoorbereiding.md` §22 (20 punten).
@@ -212,7 +212,7 @@ cd "/Volumes/Littlecisboy/Google drive/Toegepaste Informatica/2026-2027/W07 - Le
 
 - Helpen de vaste startdia en de startpagina in beelden om zonder hulp tot bij de opdracht, de lespagina en het
   werkdocument te geraken, ook nu de klas het werkdocument voor het eerst zo gebruikt?
-- Lukt het vergelijken in deel 1 in 8 minuten (vijf rijen met vier vakken), of is dat te veel typwerk? De
+- Lukt het verklaren in deel 1 in 8 minuten (vijf rijen, alleen de laatste kolom)? De
   minimumroute slaat deel 1 over.
 - Neemt de leerling de opbouw van Noors e-mail over zonder haar zinnen te kopiëren?
 - Typen de leerlingen netjes in de vakken van het venster, of schuiven de tabellen in Google Documenten (het

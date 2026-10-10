@@ -311,8 +311,8 @@ def interviewmail():
     voorbeeldmail(mt.rows[0].cells[1], NOOR)
     breedtes(mt, [6.2, 10.8])
     doc.add_paragraph()
-    tekst(doc, "Vergelijk ze per onderdeel. Rij 1 deed je leraar voor. Schrijf bij rij 2 tot 6 in een paar "
-               "woorden wat Senne deed en wat Noor deed. Leg dan uit waarom het bij Noor beter werkt.", klein=True)
+    tekst(doc, "Vergelijk ze per onderdeel. Rij 1 deed je leraar voor. Schrijf bij rij 2 tot 6 in de "
+               "laatste kolom waarom het bij Noor beter werkt.", klein=True)
     t = doc.add_table(rows=7, cols=4)
     t.style = "Table Grid"
     t.alignment = WD_TABLE_ALIGNMENT.CENTER
@@ -325,11 +325,15 @@ def interviewmail():
         ("1  onderwerp", "vraagje", "Vraag om een interview over groepschats – Onderzoekslabo",
          "Bij vraagje weet de ontvanger niet waarover het gaat. Bij Noor zie je waarover (een interview over "
          "groepschats) en van wie (Onderzoekslabo) nog voor je de e-mail opent."),
-        ("2  aanspreking", "", "", ""),
-        ("3  inleiding", "", "", ""),
-        ("4  midden: de vraag", "", "", ""),
-        ("5  slot", "", "", ""),
-        ("6  slotgroet en handtekening", "", "", ""),
+        ("2  aanspreking", "hallo,", "Beste meneer Willems,", ""),
+        ("3  inleiding", "ik zit in het 3de jaar en we moeten een interview doen voor een taak over slaap",
+         "Mijn naam is Noor Van Hecke en ik zit in 3MWWE … namens het Onderzoekslabo Jongeren & Welzijn …", ""),
+        ("4  midden: de vraag", "kunt ge morgen na school?",
+         "ongeveer 20 minuten … woensdag 28 oktober om 15 uur of donderdag 29 oktober om 13 uur, bij het CLB of "
+         "online … Uw naam komt niet in ons verslag", ""),
+        ("5  slot", "(geen slot)", "vóór dinsdag 20 oktober … Alvast bedankt voor uw tijd.", ""),
+        ("6  slotgroet en handtekening", "thx!! 🙂  Senne",
+         "Met vriendelijke groeten, Noor Van Hecke, 3MWWE, Onderzoekslabo Jongeren & Welzijn, GO! Dalton Gent", ""),
     ]
     for i, (onderdeel, senne, noor, waarom) in enumerate(rijen, start=1):
         cells = t.rows[i].cells
@@ -339,9 +343,10 @@ def interviewmail():
         cells[2].text = noor
         cells[3].text = waarom
         hoogte(t.rows[i], 1.0 if i == 1 else 1.7)
-    for cel_ in t.rows[1].cells[1:]:
-        for run in cel_.paragraphs[0].runs:
-            run.font.size = Pt(9.5)
+    for rij_ in t.rows[1:]:
+        for cel_ in rij_.cells[1:3]:
+            for run in cel_.paragraphs[0].runs:
+                run.font.size = Pt(9.5)
     breedtes(t, [3.0, 3.4, 4.4, 6.2])
     doc.add_paragraph()
 

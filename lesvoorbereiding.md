@@ -141,8 +141,8 @@ formele e-mail*. Geen zip. Geen e-mailadres van Jonas nodig.
 MW les 3): kopregel (naam, klas) · *Zo werk je* · kader **Je onderzoek** (de mensen en adressen uit §4 en
 de feiten voor het interview) · **deel 1** *Goed of zwak?*: de e-mail van Senne en die van Noor naast elkaar,
 dan een tabel met zes rijen (onderwerp · aanspreking · inleiding · midden: de vraag · slot · slotgroet en
-handtekening) en drie kolommen (*Senne* · *Noor* · *Waarom werkt het bij Noor beter?*); **rij 1, het
-onderwerp, is ingevuld** (= de demo) · **deel 2** *Aan, Cc of Bcc?*: vier situaties + vraag 1 · **deel 3**
+handtekening) en drie kolommen (*Senne* · *Noor* · *Waarom werkt het bij Noor beter?*); **in elke rij staan de citaten
+van Senne en Noor al; rij 1, het onderwerp, is ook verklaard** (= de demo) en de leerling verklaart rij 2 tot 6 · **deel 2** *Aan, Cc of Bcc?*: vier situaties + vraag 1 · **deel 3**
 het venster *Nieuw bericht* (Aan, Cc, Bcc, Onderwerp, en vakken met een grijs label: aanspreking ·
 inleiding · midden · slot · slotgroet · handtekening; een blauwe knop *Verzenden* met "niet echt") ·
 **deel 4** *Feedback van je buur*: checklist van acht punten (de buur vinkt aan), één top, één tip, en *wat ik
