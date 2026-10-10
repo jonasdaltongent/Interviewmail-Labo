@@ -84,14 +84,14 @@ Repository [`jonasdaltongent/Interviewmail-Labo`](https://github.com/jonasdalton
 
 ### Stap 2 — De opdracht in Classroom, met de koppeling ✅ *concept op 10-10-2026*
 
-Als **concept** in [3MWWE - Informatica](KLASLINK). Toewijzen doe je zelf met **Toewijzen**.
+Als **concept** in [3MWWE - Informatica](https://classroom.google.com/c/MjUzNjQyOTk0NDFa). Toewijzen doe je zelf met **Toewijzen**.
 
 | | Opdracht: **Les 3 — De formele e-mail** |
 |---|---|
 | **Onderwerp** | Module 1 — Digitaal organiseren en communiceren |
 | **Bijlage 1** | de link naar de lespagina |
 | **Bijlage 2** | `Interviewmail` (Google-document) — **Een kopie maken voor elke leerling** |
-| **Bijlage 3** | de Gemini Notebook *AI-hulp · Les 3 · De formele e-mail* (zie hieronder) |
+| **Bijlage 3** | de Gemini Notebook *AI-hulp · Les 3 · De formele e-mail* (nog toe te voegen, zie hieronder) |
 | **Punten** | 20 |
 | **Deadline** | vrijdag 16 oktober 2026, 20.00 uur |
 
@@ -118,7 +118,15 @@ Klik op Inleveren, ten laatste vrijdag 16 oktober 2026 om 20.00 uur.
 
 ### De AI-hulp
 
-AIHULPSTATUS
+⚠️ **Nog niet aan het concept gehangen (10-10-2026).** De lesbouwer maakte de Gemini Notebook *AI-hulp · Les 3 ·
+De formele e-mail* (bron: `ai-bron.txt`, chatinstelling *Aangepast* met de vaste instructie uit
+`_afspraken/ai-hulp.md`, *Korter*), maar de Chrome-sessie was aangemeld als het testaccount *demoleerling3*, niet als
+jou. De notebook staat dus in dat account (<https://notebook.google.com/notebook/59780fa2-4a8e-49da-9266-bcf81d2d0e9a>)
+en kan niet aan jouw concept. De chatinstelling is niet teruggelezen.
+Te doen, in Chrome met jouw profiel (dalton.gent): maak dezelfde notebook (`_afspraken/ai-hulp.md`, *Per les klaarzetten*,
+stap 2–4; bron `https://jonasdaltongent.github.io/Interviewmail-Labo/ai-bron.txt`) en hang ze aan het concept
+(*Bovenaan de lesgroep plaatsen* uit). Lukt dat niet vóór de les, zet dan in `index.html`
+`data-ai-hulp="aan"` op `"uit"` en publiceer opnieuw: nu staat hij aan.
 
 ### De demo klaarzetten (1 minuut)
 
