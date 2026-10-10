@@ -15,7 +15,7 @@
      lokaal 18, Windows 11 · werkdocument zoals 3MWb (geen Gmail: geen toegang met het schoolaccount), met
      een venster dat "Nieuw bericht" nabootst · AI-hulp (Gemini Notebook): aan · mascotte: de poses
      "laptop" (dia 7) en "letop" (dia 6) bestaan nog niet; hun plaats blijft klaar, en de hoofdsessie zet
-     ze erin zodra Jonas zegt dat ze er zijn (verwacht in de nacht van 10 op 11-10). -->
+     ze erin zodra Jonas zegt dat ze er zijn (verwacht in de nacht van 10 op 11-10). Erin gezet op 11-10-2026. -->
 
 ## 1. Inhoud van het pakket
 
