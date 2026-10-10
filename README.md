@@ -91,7 +91,7 @@ Als **concept** in [3MWWE - Informatica](https://classroom.google.com/c/MjUzNjQy
 | **Onderwerp** | Module 1 — Digitaal organiseren en communiceren |
 | **Bijlage 1** | de link naar de lespagina |
 | **Bijlage 2** | `Interviewmail` (Google-document) — **Een kopie maken voor elke leerling** |
-| **Bijlage 3** | de Gemini Notebook *AI-hulp · Les 3 · De formele e-mail* (nog toe te voegen, zie hieronder) |
+| **Bijlage 3** | de Gemini Notebook *AI-hulp · Les 3 · De formele e-mail* (*Bovenaan de lesgroep plaatsen* uit) |
 | **Punten** | 20 |
 | **Deadline** | vrijdag 16 oktober 2026, 20.00 uur |
 
@@ -116,17 +116,16 @@ Klik op Inleveren, ten laatste vrijdag 16 oktober 2026 om 20.00 uur.
    (alleen vóór je de opdracht post).
 3. Voeg de lespagina toe met **Link**.
 
-### De AI-hulp
+### De AI-hul✅ **Aan het concept gehangen (10-10-2026).** Gemini Notebook *AI-hulp · Les 3 · De formele e-mail* in jouw profiel
+(dalton.gent), met als bron `https://jonasdaltongent.github.io/Interviewmail-Labo/ai-bron.txt` (de versie met de
+herstellingen van 10-10-2026), **Chat instellen** › **Aangepast** met de vaste instructie uit `_afspraken/ai-hulp.md`
+› **Korter** (teruggelezen). In het concept bijgevoegd met **Bestaande selecteren**, *Bovenaan de lesgroep
+plaatsen* uitgezet; teruggelezen via de API: drie bijlagen, nog altijd `DRAFT`.
 
-⚠️ **Nog niet aan het concept gehangen (10-10-2026).** De lesbouwer maakte de Gemini Notebook *AI-hulp · Les 3 ·
-De formele e-mail* (bron: `ai-bron.txt`, chatinstelling *Aangepast* met de vaste instructie uit
-`_afspraken/ai-hulp.md`, *Korter*), maar de Chrome-sessie was aangemeld als het testaccount *demoleerling3*, niet als
-jou. De notebook staat dus in dat account (<https://notebook.google.com/notebook/59780fa2-4a8e-49da-9266-bcf81d2d0e9a>)
-en kan niet aan jouw concept. De chatinstelling is niet teruggelezen.
-Te doen, in Chrome met jouw profiel (dalton.gent): maak dezelfde notebook (`_afspraken/ai-hulp.md`, *Per les klaarzetten*,
-stap 2–4; bron `https://jonasdaltongent.github.io/Interviewmail-Labo/ai-bron.txt`) en hang ze aan het concept
-(*Bovenaan de lesgroep plaatsen* uit). Lukt dat niet vóór de les, zet dan in `index.html`
-`data-ai-hulp="aan"` op `"uit"` en publiceer opnieuw: nu staat hij aan.
+Een eerste notebook met dezelfde naam staat per ongeluk in het testaccount *demoleerling3* (de lesbouwer werkte
+eerst in het verkeerde Chrome-profiel). Die hangt nergens aan; wissen kan je zelf als je wil.
+
+.
 
 ### De demo klaarzetten (1 minuut)
 
