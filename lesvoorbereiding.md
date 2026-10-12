@@ -9,6 +9,7 @@ lesdag: "donderdag 15 oktober 2026, 8ste lesuur (rooster van 25-09-2026)"
 leerplan: "Leerplannen/Leerplannen_2de_graad_TOINFO_MWW_doorstroom.md"
 jaarplan: "Leerplannen/Lessenplan_TOINFO_MWW_doorstroom_30u.md — module 1, les 3"
 vakinhoud: "_vakinhoud/digitale-communicatie.md"
+register: "_bronnen/register/A-communicatie.md § A1, § A2 · didactiek.md § D7"
 opgesteld_volgens: "_afspraken/ (werkruimte Toegepaste Informatica)"
 ---
 
@@ -280,3 +281,20 @@ handtekening · u-vorm · een testlezer · de AI-hulp) · stappen 1–7 · Extra
 Route met onthouden stap; checklist met voortgang en groene vinkjes; zelftest (3 vragen) en E-mailquiz (4
 vragen) met directe feedback; `?leraar`; `data-ai-hulp="aan"` toont de AI-hulp. `localStorage` alleen voor
 vinkjes en de stap (`labo_interviewmail_v1_`).
+
+## Bronnenonderzoek
+
+Achteraf gedaan op 12-10-2026: de les bestond al vóór de afspraak over bronnenonderzoek (11-10-2026). Alle
+bronnen uit register A1, A2 en D7 gelezen op de genoemde plaats (samen met MW les 3), daarna breder gezocht
+(`anoniem OR anonymous OR vertrouwelijk OR pseudoniem`). Alleen verwijzingen en eigen woorden.
+
+| Bron | Wat de les eruit gebruikt | Bewust niet |
+|---|---|---|
+| **Lift 3A Thema 4**, Level 3 | p. 63: de delen van een zakelijke e-mail (ook de *slotzin*: het slot van Noor) en Aan (actie), Cc (ter informatie), Bcc (adres verborgen) · p. 78: de don'ts (leeg of vaag onderwerp, emoji's, uitroeptekens, niet beginnen met *ik*) = de e-mail van Senne tegenover die van Noor · p. 92: Bcc bij een groep, wegens de privacywet = de 24 respondenten | de NBN-briefnorm en de oefeningen zelf (uitgeverij: inspiratie) |
+| Team Taaladvies | *E-mailetiquette*, *Slotgroet en ondertekening* (*groet* en *groeten* allebei goed) · *Aanspreking en slotformule (komma)* (12-10-2026): de komma mag en is gebruikelijk; de les houdt de komma, met een link op de theoriekaart (Jonas, 12-10-2026) | — |
+| Leerplan MWW, `BV2_04.04` | *anonimiteit versus vertrouwelijkheid*: bij een interview weet de onderzoeker wie antwoordt, dus het is vertrouwelijk, niet anoniem. De theoriekaart zegt nu *of haar naam in je verslag komt* (Jonas, 12-10-2026); de e-mail van Noor en quizvraag 4 zeiden het al zo | het onderscheid zelf uitleggen: MWW les 14 en 16 |
+| GBA Stappenplan | p. 8: een adres is een persoonsgegeven (vraag 1 van deel 2) | — |
+| Wijze lessen (D7) | r. 2772 (Shute): feedback specifiek en over de taak = *een goede tip zegt wat beter kan; niet alleen Goed zo!* | — |
+| TC KS4 World of work | L3 act. 1 (emoji's): toon tegenover vrienden en collega's (Senne) | de werkvormen zelf |
+| Hello World 29 p. 60 | — | kanaalkeuze: past bij MWW les 4 |
+
