@@ -1,5 +1,5 @@
 BRON VOOR DE AI-HULP — Lespagina · Les 3 · De formele e-mail · Onderzoekslabo
-Dit is de volledige tekst van de lespagina: de startpagina, de theoriekaart, elke stap met 'Wat moet je doen?', 'Hulp nodig?' en 'Klaar als', en de checklist.
+Dit is de volledige tekst van de lespagina: de startpagina, de theoriekaart, elke stap met 'Wat moet je doen?' en 'Hulp nodig?', en de checklist.
 
 ======================================================================
 STARTPAGINA
@@ -198,8 +198,6 @@ Vind je je werkdocument niet? Kijk in de opdracht rechts, bij Jouw werk. Het hee
 
 Is deze lespagina weg? Klik bovenaan op het andere tabblad.
 
-Klaar als: je werkdocument open is, met je naam erin, en je het kader Je onderzoek gelezen hebt.
-
 ======================================================================
 STAP 2 — Goed of zwak?
 ======================================================================
@@ -208,6 +206,16 @@ Stap 2 Werkdocument, deel 1
 Goed of zwak?
 
 Senne en Noor vroegen allebei een interview aan. Wat doet Noor beter?
+
+Wat moet je doen?
+
+- Lees hieronder de e-mail van Senne en die van Noor.
+
+- Ga naar deel 1 van je werkdocument. Daar staat per onderdeel wat Senne en Noor schreven.
+
+- Rij 1, het onderwerp, is ook al verklaard: je leraar deed ze voor.
+
+- Schrijf bij rij 2 tot 6 in de laatste kolom waarom het bij Noor beter werkt.
 
 De e-mail van Senne
 
@@ -254,16 +262,6 @@ GO! Dalton Gent
 
 Verzenden
 
-Wat moet je doen?
-
-- Lees de e-mail van Senne en die van Noor.
-
-- Ga naar deel 1 van je werkdocument. Daar staat per onderdeel wat Senne en Noor schreven.
-
-- Rij 1, het onderwerp, is ook al verklaard: je leraar deed ze voor.
-
-- Schrijf bij rij 2 tot 6 in de laatste kolom waarom het bij Noor beter werkt.
-
 Kijk naar de opbouw, niet naar de zinnen. Noor schreef over een ander onderzoek en aan iemand anders dan jij.
 
 Hulp nodig? Waar moet je kijken?
@@ -279,8 +277,6 @@ Hulp nodig? Waar moet je kijken?
 - Slotgroet: hoe sluiten ze af, en wat staat er onder?
 
 Kijk ook op de theoriekaart, bij Veelgemaakte fouten.
-
-Klaar als: in deel 1 bij rij 2 tot 6 telkens staat waarom het bij Noor beter werkt.
 
 ======================================================================
 STAP 3 — Aan, Cc of Bcc?
@@ -310,8 +306,6 @@ Hulp nodig?
 Vraag je bij elke persoon af: moet die antwoorden? Dan is het Aan. Alleen meelezen? Dan is het Cc of Bcc. Mogen de anderen dit adres zien?
 
 Bij vraag 1: denk aan les 2. Je schreef respondent-02 in plaats van een naam. Een e-mailadres is ook een persoonsgegeven.
-
-Klaar als: bij de vier situaties Aan, Cc of Bcc staat, en vraag 1 beantwoord is.
 
 ======================================================================
 STAP 4 — Het begin van je e-mail
@@ -343,8 +337,6 @@ Typ het adres letter voor letter over. Eén fout en je e-mail komt niet aan.
 Waarom Cc? Je onderzoeksbegeleider leest mee, maar moet niets doen. Kijk op de theoriekaart bij Aan, Cc of Bcc?
 
 Waarom geen voornaam? Je kent mevrouw De Clercq niet. Daarom schrijf je Beste mevrouw De Clercq, — met een komma achteraan. Heel officieel mag ook: Geachte mevrouw De Clercq,
-
-Klaar als: Aan, Cc, Onderwerp en de aanspreking ingevuld zijn, en Bcc leeg is.
 
 ======================================================================
 STAP 5 — Inleiding, midden en slot
@@ -391,8 +383,6 @@ Hulp nodig? Zinnen om mee te beginnen
 
 Maak de zinnen af met je eigen woorden. Begin elke alinea tegen de linkerkant.
 
-Klaar als: elk vak in het venster ingevuld is, met u en uw, en je naam onderaan staat.
-
 ======================================================================
 STAP 6 — Feedback van je buur
 ======================================================================
@@ -421,8 +411,6 @@ Is je buur nog niet klaar? Lees dan eerst zelf je e-mail na met de checklist in 
 Een goede tip zegt wat beter kan: Je zegt niet tegen wanneer je een antwoord wil. Niet alleen: Goed zo!
 
 Is er geen buur om mee te werken? Zeg het aan je leraar.
-
-Klaar als: deel 4 is aangekruist, de top en de tip erin staan, en je opschreef wat je aanpaste.
 
 ======================================================================
 STAP 7 — Controleren en inleveren
@@ -458,8 +446,6 @@ Wat moet je doen?
 - Beantwoord in deel 5 de slotvraag.
 
 - Klik in de opdracht op Inleveren.
-
-Klaar als: er bij de opdracht Ingeleverd staat.
 
 ======================================================================
 EXTRA (niet verplicht)
