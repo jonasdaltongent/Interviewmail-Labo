@@ -186,8 +186,6 @@ Wat moet je doen?
 
 - Klik in de opdracht rechts, onder Jouw werk, op je werkdocument Interviewmail. Het heeft jouw naam in de titel.
 
-- Vul bovenaan je naam, je klas en de datum in.
-
 - Lees het kader Je onderzoek. Daar staan de mensen, hun adressen en wat je vraagt.
 
 Twee tabbladen. Bovenaan in Chrome staan nu deze lespagina en je werkdocument. Klik op een tabblad om te wisselen.
@@ -486,7 +484,6 @@ CHECKLIST (rechts op de lespagina)
 1 · Klaarzetten
 
 [ ] Werkdocument open, met mijn naam in de titel
-[ ] Naam, klas en datum ingevuld
 [ ] Het kader Je onderzoek gelezen
 
 2 · Goed of zwak?

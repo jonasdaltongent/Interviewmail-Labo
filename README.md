@@ -29,7 +29,8 @@ W07 - Les 03 - MWW - De formele e-mail/
 ├── assets/                 logo's van het Onderzoekslabo en GO! Dalton Gent, lettertypes (OFL), mascotte Dalton
 ├── werkdocument/
 │   ├── Interviewmail.docx          het werkdocument dat de leerling INLEVERT
-│   └── maak_werkdocumenten.py      maakt het opnieuw (python-docx)
+│   ├── maak_werkdocumenten.py      maakt het opnieuw (python-docx)
+│   └── huisstijl.py, go-dalton-gent.png   de huisstijl van het werkdocument (uit _sjablonen/lespakket/werkdocument/)
 ├── lesvoorbereiding.md     de lesvoorbereiding (28 punten)
 ├── dalton-lesfiche.html    de Dalton-lesfiche in de kleurcode: openen, Kopieer de fiche, plakken
 ├── lesdoelen.json          de doelen voor je jaaroverzicht
@@ -55,7 +56,7 @@ opbouw over, niet de zinnen. Ze staan op de lespagina (stap 2) en in deel 1 van 
 
 - **Startpagina**: *Wat heb je nodig?* in drie beelden (de opdracht, de lespagina, het werkdocument), *Na deze
   les kan je*, en *Vast?* als genummerde rij.
-- **Route** links, **één stap** in het midden, **checklist** rechts (21 taken). Op een smal scherm staat alles
+- **Route** links, **één stap** in het midden, **checklist** rechts (20 taken). Op een smal scherm staat alles
   onder elkaar.
 - De **titel van de pagina** begint met *Lespagina · Les 3*: zo heet de link in de opdracht en het tabblad in
   Chrome, naast het tabblad *Interviewmail*.
@@ -209,6 +210,9 @@ cd "/Volumes/Littlecisboy/Google drive/Toegepaste Informatica/2026-2027/W07 - Le
 
 ## 8. Wat nog moet blijken in de klas
 
+- **Het nieuwe werkdocument** (12-10-2026): geen naam/klas/datum en *Zo werk je* meer, de volledige e-mails van
+  Senne en Noor alleen nog op de lespagina, antwoorden in lichtblauwe vakken, deel 4 met de punten van § 22.
+  Vergelijken ze vlot met de citaten in de tabel? Zet de buur in deel 4 een x in het vak?
 - Helpen de vaste startdia en de startpagina in beelden om zonder hulp tot bij de opdracht, de lespagina en het
   werkdocument te geraken, ook nu de klas het werkdocument voor het eerst zo gebruikt?
 - Lukt het verklaren in deel 1 in 8 minuten (vijf rijen, alleen de laatste kolom)? De

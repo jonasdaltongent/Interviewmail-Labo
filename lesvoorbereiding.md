@@ -138,16 +138,17 @@ formele e-mail*. Geen zip. Geen e-mailadres van Jonas nodig.
 
 ## 14. Het werkdocument
 
-`werkdocument/Interviewmail.docx` (gemaakt met `maak_werkdocumenten.py`, naar het model van *Stagemail* in
-MW les 3): kopregel (naam, klas) · *Zo werk je* · kader **Je onderzoek** (de mensen en adressen uit §4 en
-de feiten voor het interview) · **deel 1** *Goed of zwak?*: de e-mail van Senne en die van Noor naast elkaar,
-dan een tabel met zes rijen (onderwerp · aanspreking · inleiding · midden: de vraag · slot · slotgroet en
-handtekening) en drie kolommen (*Senne* · *Noor* · *Waarom werkt het bij Noor beter?*); **in elke rij staan de citaten
-van Senne en Noor al; rij 1, het onderwerp, is ook verklaard** (= de demo) en de leerling verklaart rij 2 tot 6 · **deel 2** *Aan, Cc of Bcc?*: vier situaties + vraag 1 · **deel 3**
-het venster *Nieuw bericht* (Aan, Cc, Bcc, Onderwerp, en vakken met een grijs label: aanspreking ·
-inleiding · midden · slot · slotgroet · handtekening; een blauwe knop *Verzenden* met "niet echt") ·
-**deel 4** *Feedback van je buur*: checklist van acht punten (de buur vinkt aan), één top, één tip, en *wat ik
-aanpaste* · **deel 5** de exitvraag.
+`werkdocument/Interviewmail.docx` (gemaakt met `maak_werkdocumenten.py`, huisstijl van 12-10-2026, naar het
+model van *Stagemail* in MW les 3): logo, titel en puntenvak (/20) · kader **Je onderzoek** (de mensen en
+adressen uit §4 en de feiten voor het interview) · **deel 1** *Goed of zwak?*: een tabel met zes rijen (onderwerp
+· aanspreking · inleiding · midden: de vraag · slot · slotgroet en handtekening) en drie kolommen (*Senne* ·
+*Noor* · *Waarom werkt het bij Noor beter?*); **in elke rij staan de citaten van Senne en Noor al; rij 1, het
+onderwerp, is ook verklaard** (= de demo) en de leerling verklaart rij 2 tot 6. De volledige e-mails staan op de
+lespagina (stap 2), niet in het werkdocument · **deel 2** *Aan, Cc of Bcc?*: vier situaties + vraag 1 ·
+**deel 3** het venster *Nieuw bericht* (Aan, Cc, Bcc, Onderwerp, en vakken met een grijs label: aanspreking ·
+inleiding · midden · slot · slotgroet · handtekening), op een eigen bladzijde · **deel 4** *Feedback van je
+buur*: de criteria van § 22 als tabel (de buur typt een x, de leraar zet de punten), één top, één tip, en *wat ik
+aanpaste* · **deel 5** de exitvraag. Overal typt de leerling in een lichtblauw vak.
 
 **De twee voorbeelden** (de lesbouwer schrijft ze uit, kort):
 
