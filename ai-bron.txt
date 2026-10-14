@@ -42,7 +42,7 @@ Na deze les kan je
 
 Vast? Probeer het in deze volgorde
 
-- Hulp nodig? onder de stap
+- Klik in de stap op Toon stapjes
 
 - Je buur
 
@@ -182,17 +182,28 @@ Je zet je werkdocument klaar. Daarin schrijf je vandaag alles.
 
 Wat moet je doen?
 
-- Klik in de opdracht rechts, onder Jouw werk, op je werkdocument Interviewmail. Het heeft jouw naam in de titel.
+-
+Open je werkdocument Interviewmail.
 
-- Lees het kader Je onderzoek. Daar staan de mensen, hun adressen en wat je vraagt.
+-
+Kijk in je opdracht in Google Classroom rechts, bij Jouw werk.
 
-Twee tabbladen. Bovenaan in Chrome staan nu deze lespagina en je werkdocument. Klik op een tabblad om te wisselen.
+-
+Klik op Interviewmail. Jouw naam staat in de titel.
 
-Hulp nodig?
+-
+Je werkdocument opent in een nieuw tabblad. Klik bovenaan op een tabblad om te wisselen.
 
-Vind je je werkdocument niet? Kijk in de opdracht rechts, bij Jouw werk. Het heet Interviewmail, met jouw naam ervoor.
+-
+Lees het kader Je onderzoek.
 
-Is deze lespagina weg? Klik bovenaan op het andere tabblad.
+-
+Scroll naar het kader Je onderzoek. Lees wie je interviewt en wie je begeleider is. Hun adressen staan erbij.
+
+-
+Lees ook wat je vraagt en tegen wanneer. Dat heb je nodig in stap 5.
+
+Is de lespagina weg? Klik bovenaan in Chrome op het tabblad Lespagina · Les 3.
 
 ======================================================================
 STAP 2 — Goed of zwak?
@@ -205,13 +216,31 @@ Senne en Noor vroegen allebei een interview aan. Wat doet Noor beter?
 
 Wat moet je doen?
 
-- Lees hieronder de e-mail van Senne en die van Noor.
+- Lees hieronder de e-mails van Senne en Noor. Noor schreef over een ander onderzoek, aan iemand anders dan jij. Kijk naar de opbouw, niet naar haar zinnen.
 
-- Ga naar deel 1 van je werkdocument. Daar staat per onderdeel wat Senne en Noor schreven.
+-
+Bekijk deel 1 van je werkdocument.
 
-- Rij 1, het onderwerp, is ook al verklaard: je leraar deed ze voor.
+-
+Scroll in je werkdocument naar Deel 1. Rij 1, het onderwerp, staat er al: je leraar deed ze voor.
 
-- Schrijf bij rij 2 tot 6 in de laatste kolom waarom het bij Noor beter werkt.
+-
+Schrijf bij rij 2 tot 6 waarom het bij Noor beter werkt.
+
+-
+Klik in rij 2, in de laatste kolom. Schrijf waarom Noors aanspreking beter werkt. Hoe begint Senne, en hoe begint Noor?
+
+-
+Doe hetzelfde in rij 3, de inleiding. Weet de ontvanger wie er mailt, en namens wie?
+
+-
+Doe hetzelfde in rij 4, het midden. Weet de ontvanger hoe lang, wanneer en waar? Weet hij wat er met zijn antwoorden gebeurt?
+
+-
+Doe hetzelfde in rij 5, het slot. Zegt de schrijver tegen wanneer hij een antwoord hoopt? Bedankt hij?
+
+-
+Doe hetzelfde in rij 6, de slotgroet en de handtekening. Hoe sluiten ze af, en wat staat eronder?
 
 De e-mail van Senne
 
@@ -258,21 +287,7 @@ GO! Dalton Gent
 
 Verzenden
 
-Kijk naar de opbouw, niet naar de zinnen. Noor schreef over een ander onderzoek en aan iemand anders dan jij.
-
-Hulp nodig? Waar moet je kijken?
-
-- Aanspreking: hoe begint Senne, en hoe begint Noor?
-
-- Inleiding: weet de ontvanger wie er mailt en namens wie?
-
-- Midden: weet de ontvanger hoe lang, wanneer en waar? Weet hij wat er met zijn antwoorden gebeurt?
-
-- Slot: zegt de schrijver tegen wanneer hij een antwoord hoopt? Bedankt hij?
-
-- Slotgroet: hoe sluiten ze af, en wat staat er onder?
-
-Kijk ook op de theoriekaart, bij Veelgemaakte fouten.
+Schrijf je alleen wat Noor schreef? Zeg ook waarom het beter werkt: wat weet de ontvanger bij Noor wel, en bij Senne niet?
 
 ======================================================================
 STAP 3 — Aan, Cc of Bcc?
@@ -291,17 +306,25 @@ Bcc Leest mee. Niemand ziet dit adres.
 
 Wat moet je doen?
 
-- Ga naar deel 2 van je werkdocument.
+-
+Schrijf bij elke situatie Aan, Cc of Bcc.
 
-- Schrijf bij elk van de vier situaties Aan, Cc of Bcc.
+-
+Scroll naar Deel 2. Lees situatie a.
 
-- Beantwoord vraag 1: waarom zet je de 24 leerlingen niet in Cc?
+-
+Klik rechts in het vak. Typ Aan, Cc of Bcc. Moet die persoon antwoorden? Dan is het Aan. Leest die alleen mee? Dan is het Cc of Bcc.
 
-Hulp nodig?
+-
+Doe hetzelfde voor situatie b, c en d.
 
-Vraag je bij elke persoon af: moet die antwoorden? Dan is het Aan. Alleen meelezen? Dan is het Cc of Bcc. Mogen de anderen dit adres zien?
+-
+Beantwoord vraag 1.
 
-Bij vraag 1: denk aan les 2. Je schreef respondent-02 in plaats van een naam. Een e-mailadres is ook een persoonsgegeven.
+-
+Lees vraag 1. Klik in het vak eronder en typ je antwoord. Denk aan les 2: je schreef respondent-02 in plaats van een naam. Een e-mailadres is ook een persoonsgegeven.
+
+Twijfel je tussen Cc en Bcc? Mag iedereen het adres zien? Dan is het Cc. Mag niemand het zien? Dan is het Bcc.
 
 ======================================================================
 STAP 4 — Het begin van je e-mail
@@ -312,27 +335,44 @@ Het begin van je e-mail
 
 Nu schrijf je zelf de interviewaanvraag aan mevrouw De Clercq van Jongerenhuis De Lantaarn. Je begint bovenaan in het venster.
 
+Gemaakt met AI
+
 Wat moet je doen?
 
-- Ga naar deel 3 van je werkdocument: het venster Nieuw bericht.
+-
+Ga naar deel 3: het venster Nieuw bericht.
 
-- Klik in het vak naast Aan. Typ het adres van de jongerenwerker. Het staat in het kader Je onderzoek.
+-
+Scroll naar Deel 3. Daar staat een venster zoals in Gmail.
 
-- Typ naast Cc het adres van je onderzoeksbegeleider. Laat Bcc leeg.
+-
+Typ naast Aan het adres van mevrouw De Clercq.
 
-- Typ naast Onderwerp in een paar woorden waarover je e-mail gaat en van wie hij komt.
+-
+Zoek haar adres in het kader Je onderzoek, bovenaan je werkdocument.
 
-- Schrijf naast aanspreking: Beste mevrouw De Clercq,
+-
+Klik in het vak naast Aan. Typ het adres. Typ letter voor letter. Eén fout en je e-mail komt niet aan.
 
-Een goed onderwerp zegt waarover het gaat en van wie het komt. Kijk naar rij 1 in deel 1 en maak er een onderwerp van voor jouw onderzoek.
+-
+Typ naast Cc het adres van je onderzoeksbegeleider. Laat Bcc leeg.
 
-Hulp nodig?
+-
+Klik in het vak naast Cc. Typ het adres van mevrouw Coppens. Het adres staat ook in het kader Je onderzoek. Je begeleider leest mee, maar moet niets doen.
 
-Typ het adres letter voor letter over. Eén fout en je e-mail komt niet aan.
+-
+Typ naast Onderwerp waarover je e-mail gaat en van wie hij komt.
 
-Waarom Cc? Je onderzoeksbegeleider leest mee, maar moet niets doen. Kijk op de theoriekaart bij Aan, Cc of Bcc?
+-
+Klik in het vak naast Onderwerp. Typ in een paar woorden waarover je mailt en van wie de e-mail komt. Kijk naar rij 1 in deel 1: zo deed Noor het, voor haar onderzoek.
 
-Waarom geen voornaam? Je kent mevrouw De Clercq niet. Daarom schrijf je Beste mevrouw De Clercq, — met een komma achteraan. Heel officieel mag ook: Geachte mevrouw De Clercq,
+-
+Schrijf de aanspreking.
+
+-
+Klik naast aanspreking. Typ: Beste mevrouw De Clercq, Met een komma. Je kent haar niet: dus geen voornaam. Heel officieel mag ook: Geachte mevrouw De Clercq,
+
+Staat er alleen interview in je onderwerp? Zeg ook waarover het gaat en van wie het komt. Kijk naar rij 1 in deel 1.
 
 ======================================================================
 STAP 5 — Inleiding, midden en slot
@@ -355,29 +395,40 @@ Mevrouw De Clercq kent je niet. Na je inleiding weet ze wie je bent. Na je midde
 
 Wat moet je doen?
 
-- Schrijf in het venster naast inleiding wie je bent, namens wie je mailt en waarom.
+-
+Schrijf je inleiding.
 
-- Schrijf naast midden je vraag. Gebruik de feiten uit het kader Je onderzoek.
+-
+Klik naast inleiding. Schrijf wie je bent, namens wie je mailt en waarom. Begin zo, en maak de zinnen af: Mijn naam is … en ik zit in … van GO! Dalton Gent. Samen met mijn onderzoeksgroep onderzoek ik … namens het Onderzoekslabo Jongeren & Welzijn.
 
-- Schrijf naast slot tegen wanneer je een antwoord hoopt. Bedank haar.
+-
+Schrijf je vraag in het midden.
 
-- Schrijf naast slotgroet Met vriendelijke groeten, en naast handtekening je naam, je klas, het Onderzoekslabo en je school.
+-
+Zoek in het kader Je onderzoek wat je vraagt.
 
-Schrijf u en uw, niet je en jij. Je kent mevrouw De Clercq niet. Dus: Mag ik u interviewen?
+-
+Klik naast midden. Vraag of je haar mag interviewen: hoe lang, wanneer en waar. Bijvoorbeeld: Mag ik u daarover interviewen? Het interview duurt ongeveer …
 
-Hulp nodig? Zinnen om mee te beginnen
+-
+Schrijf erachter wat er met haar antwoorden gebeurt. Bijvoorbeeld: Uw naam komt niet in ons verslag. …
 
-- Mijn naam is … en ik zit in … van GO! Dalton Gent.
+-
+Schrijf je slot.
 
-- Samen met mijn onderzoeksgroep onderzoek ik … namens het Onderzoekslabo Jongeren & Welzijn.
+-
+Klik naast slot. Schrijf tegen wanneer je een antwoord hoopt, en bedank haar. Bijvoorbeeld: Kan u mij vóór … laten weten welk moment past? Alvast bedankt …
 
-- Mag ik u daarover interviewen? Het interview duurt ongeveer …
+-
+Sluit af met een slotgroet en je handtekening.
 
-- Uw naam komt niet in ons verslag. …
+-
+Klik naast slotgroet. Typ: Met vriendelijke groeten,
 
-- Kan u mij vóór … laten weten welk moment past? Alvast bedankt …
+-
+Typ naast handtekening je naam, je klas, het Onderzoekslabo en je school. Elk op een eigen regel, zoals bij Noor.
 
-Maak de zinnen af met je eigen woorden. Begin elke alinea tegen de linkerkant.
+Schreef je je of jij? Verander het in u of uw. Je kent mevrouw De Clercq niet.
 
 ======================================================================
 STAP 6 — Feedback van je buur
@@ -386,27 +437,39 @@ Stap 6 Werkdocument, deel 4 Met je buur
 
 Feedback van je buur
 
-Een testlezer ziet sneller wat beter kan. Daarom leest je buur je e-mail eerst na, met de checklist in deel 4. Daarna doe jij hetzelfde voor je buur.
+Een testlezer ziet sneller wat beter kan. Daarom leest je buur je e-mail eerst na, met de tabel in deel 4. Daarna doe jij hetzelfde voor je buur.
 
 Wat moet je doen?
 
-- Laat je buur je e-mail lezen op jouw scherm.
+- Laat je buur je e-mail lezen op jouw scherm. Is er geen buur om mee te werken? Zeg het aan je leraar.
 
-- Je buur kruist in deel 4 aan wat klopt.
+-
+Je buur kruist in deel 4 aan wat klopt.
 
-- Je buur schrijft één top en één tip op.
+-
+Scroll naar Deel 4.
 
-- Pas minstens één ding aan in je e-mail. Schrijf op wat je aanpaste.
+-
+Klopt een zin? Je buur klikt in het vak ervoor en typt x.
 
-- Lees nu de e-mail van je buur na met de checklist.
+-
+Je buur schrijft een top en een tip.
 
-Hulp nodig?
+-
+Je buur klikt in het vak onder Dit is goed en typt een top.
 
-Is je buur nog niet klaar? Lees dan eerst zelf je e-mail na met de checklist in deel 4.
+-
+Je buur klikt in het vak onder Dit kan beter en typt een tip. Een goede tip zegt wat beter kan: Je zegt niet tegen wanneer je een antwoord wil. Niet alleen: Goed zo!
 
-Een goede tip zegt wat beter kan: Je zegt niet tegen wanneer je een antwoord wil. Niet alleen: Goed zo!
+-
+Pas minstens één ding aan in je e-mail.
 
-Is er geen buur om mee te werken? Zeg het aan je leraar.
+-
+Pas je e-mail aan. Schrijf onder Wat heb ik aangepast? wat je veranderde.
+
+- Wissel: lees nu de e-mail van je buur na, met deel 4 in het werkdocument van je buur.
+
+Is je buur nog niet klaar? Lees dan eerst zelf je e-mail na, met de tabel in deel 4.
 
 ======================================================================
 STAP 7 — Controleren en inleveren
@@ -439,11 +502,20 @@ Wat moet je doen?
 
 - Loop de checklist na. Staat er nog iets open? Werk het eerst af.
 
-- Beantwoord in deel 5 de slotvraag.
+-
+Beantwoord in deel 5 de slotvraag.
 
-- Klik bovenaan op het tabblad Google Classroom.
+-
+Scroll naar Deel 5. Klik in het vak en typ je antwoord.
 
-- Klik rechts, bij Jouw werk, op Inleveren en bevestig.
+-
+Lever in.
+
+-
+Klik bovenaan op het tabblad Google Classroom.
+
+-
+Klik rechts, bij Jouw werk, op Inleveren en bevestig.
 
 Hier lever je in
 

@@ -7,7 +7,7 @@
   <link rel="icon" href="assets/logos/lespagina-icon.png" type="image/png">
   <link rel="stylesheet" href="css/style.css">
 </head>
-<body data-storage="labo_interviewmail_v1_" data-laatste-stap="7" data-ai-hulp="aan">
+<body data-storage="labo_interviewmail_v1_" data-modus-start="stap" data-laatste-stap="7" data-ai-hulp="aan">
 
 <!-- Pictogrammen: eenvoudige lijntekeningen, eigen werk. Gebruik: een svg met class "ic" en daarin use met href naar het symbool. -->
 <svg xmlns="http://www.w3.org/2000/svg" style="display:none">
@@ -140,7 +140,7 @@
 
           <h2 class="sec">Vast? Probeer het in deze volgorde</h2>
           <ol class="vast">
-            <li><svg class="ic" aria-hidden="true"><use href="#i-help"/></svg><span><em>Hulp nodig?</em> onder de stap</span></li>
+            <li><svg class="ic" aria-hidden="true"><use href="#i-list"/></svg><span>Klik in de stap op <em>Toon stapjes</em></span></li>
             <li><svg class="ic" aria-hidden="true"><use href="#i-users"/></svg><span>Je buur</span></li>
             <li class="ai-hulp"><svg class="ic" aria-hidden="true"><use href="#i-spark"/></svg><span>AI-hulp in de opdracht</span></li>
             <li><svg class="ic" aria-hidden="true"><use href="#i-hand"/></svg><span>Je leraar</span></li>
@@ -280,19 +280,24 @@
         <div class="card-body">
           <p class="intro">Je zet je werkdocument klaar. Daarin schrijf je vandaag alles.</p>
           <div class="todo-box">
-            <h3><svg class="ic" aria-hidden="true"><use href="#i-list"/></svg> Wat moet je doen?</h3>
-            <ol class="todo">
-              <li>Klik in de opdracht rechts, onder <strong>Jouw werk</strong>, op je werkdocument <strong>Interviewmail</strong>. Het heeft jouw naam in de titel.</li>
-              <li>Lees het kader <strong>Je onderzoek</strong>. Daar staan de mensen, hun adressen en wat je vraagt.</li>
+            <div class="todo-head"><h3><svg class="ic" aria-hidden="true"><use href="#i-list"/></svg> Wat moet je doen?</h3><div class="modus" role="group" aria-label="Hoe wil je de uitleg?"><button type="button" class="modus-btn" data-modus="stap" aria-pressed="true">Stap voor stap</button><button type="button" class="modus-btn" data-modus="kort" aria-pressed="false">Kort</button></div></div>
+            <ol class="doe">
+              <li><details class="stapjes" open><summary><span class="doe-tekst">Open je werkdocument <strong>Interviewmail</strong>.</span><span class="stapjes-knop" aria-hidden="true"></span></summary>
+                <ol class="klein">
+                  <li><p>Kijk in je opdracht in Google Classroom rechts, bij <strong>Jouw werk</strong>.</p><div class="mock mock-opdracht mini-mock" role="img" aria-label="Tekening van de opdracht in Google Classroom. Rechts het vak Jouw werk, in een rood kader."><div class="mo-midden"><div class="mo-titel"><img class="logo" src="assets/logos/classroom.svg" alt="">Les 3 — De formele e-mail</div><div class="mo-chip"><img class="logo" src="assets/logos/lespagina.webp" alt=""><span>Lespagina</span></div><div class="mo-chip ai-hulp"><svg class="ic" aria-hidden="true"><use href="#i-spark"/></svg><span>AI-hulp</span></div></div><div class="mo-werk wijs"><div class="mo-werk-kop">Jouw werk</div><div class="mo-chip"><img class="logo" src="assets/logos/docs.svg" alt=""><span>Interviewmail</span></div><div class="mo-knop">Inleveren</div></div></div></li>
+                  <li><p>Klik op <strong>Interviewmail</strong>. Jouw naam staat in de titel.</p><div class="mock mock-opdracht mini-mock" role="img" aria-label="Tekening van de opdracht. Bij Jouw werk staat Interviewmail in een rood kader."><div class="mo-midden"><div class="mo-titel"><img class="logo" src="assets/logos/classroom.svg" alt="">Les 3 — De formele e-mail</div><div class="mo-chip"><img class="logo" src="assets/logos/lespagina.webp" alt=""><span>Lespagina</span></div><div class="mo-chip ai-hulp"><svg class="ic" aria-hidden="true"><use href="#i-spark"/></svg><span>AI-hulp</span></div></div><div class="mo-werk"><div class="mo-werk-kop">Jouw werk</div><div class="mo-chip wijs"><img class="logo" src="assets/logos/docs.svg" alt=""><span>Interviewmail</span></div><div class="mo-knop">Inleveren</div></div></div></li>
+                  <li><p>Je werkdocument opent in een nieuw tabblad. Klik bovenaan op een tabblad om te wisselen.</p><div class="teken-tabs" role="img" aria-label="Tekening van de tabbladen bovenaan in Chrome: Google Classroom, Lespagina · Les 3 en Interviewmail. Interviewmail staat in een rood kader."><span class="tt-tab"><img class="logo" src="assets/logos/classroom.svg" alt="">Google Classroom</span><span class="tt-tab"><img class="logo" src="assets/logos/lespagina.webp" alt="">Lespagina · Les 3</span><span class="tt-tab actief wijs"><img class="logo" src="assets/logos/docs.svg" alt="">Interviewmail</span></div></li>
+                </ol>
+              </details></li>
+              <li><details class="stapjes" open><summary><span class="doe-tekst">Lees het kader <strong>Je onderzoek</strong>.</span><span class="stapjes-knop" aria-hidden="true"></span></summary>
+                <ol class="klein">
+                  <li><p>Scroll naar het kader <em>Je onderzoek</em>. Lees wie je interviewt en wie je begeleider is. Hun adressen staan erbij.</p><img class="mini" src="assets/stapjes/s1-je-onderzoek.png" alt="Het kader Je onderzoek. De jongerenwerker en de onderzoeksbegeleider, met hun adres, staan in een rood kader." loading="lazy"></li>
+                  <li><p>Lees ook wat je vraagt en tegen wanneer. Dat heb je nodig in stap 5.</p><img class="mini" src="assets/stapjes/s1-vraag.png" alt="Het kader Je onderzoek. Wat je vraagt, wat er met haar antwoorden gebeurt en tegen wanneer je een antwoord hoopt, staan in een rood kader." loading="lazy"></li>
+                </ol>
+              </details></li>
             </ol>
           </div>
-          <div class="tip"><svg class="ic" aria-hidden="true"><use href="#i-bulb"/></svg><p><strong>Twee tabbladen.</strong> Bovenaan in Chrome staan nu deze lespagina en je werkdocument. Klik op een tabblad om te wisselen.</p></div>
-          <details class="help"><summary><img class="mascotte-ico" src="assets/mascotte/dalton_hoofd.webp" alt="" width="28" height="28"> Hulp nodig?</summary>
-            <div class="help-body">
-              <p>Vind je je werkdocument niet? Kijk in de opdracht rechts, bij <em>Jouw werk</em>. Het heet <em>Interviewmail</em>, met jouw naam ervoor.</p>
-              <p>Is deze lespagina weg? Klik bovenaan op het andere tabblad.</p>
-            </div>
-          </details>
+          <div class="tip"><svg class="ic" aria-hidden="true"><use href="#i-bulb"/></svg><p><strong>Is de lespagina weg?</strong> Klik bovenaan in Chrome op het tabblad <em>Lespagina · Les 3</em>.</p></div>
         </div>
         <footer class="card-nav">
           <button class="btn" type="button" data-goto="start"><svg class="ic" aria-hidden="true"><use href="#i-left"/></svg> Start</button>
@@ -311,12 +316,23 @@
         <div class="card-body">
           <p class="intro">Senne en Noor vroegen allebei een interview aan. Wat doet Noor beter?</p>
           <div class="todo-box">
-            <h3><svg class="ic" aria-hidden="true"><use href="#i-list"/></svg> Wat moet je doen?</h3>
-            <ol class="todo">
-              <li>Lees hieronder de e-mail van Senne en die van Noor.</li>
-              <li>Ga naar <strong>deel 1</strong> van je werkdocument. Daar staat per onderdeel wat Senne en Noor schreven.</li>
-              <li>Rij 1, het onderwerp, is ook al verklaard: je leraar deed ze voor.</li>
-              <li>Schrijf bij <strong>rij 2 tot 6</strong> in de laatste kolom <strong>waarom</strong> het bij Noor beter werkt.</li>
+            <div class="todo-head"><h3><svg class="ic" aria-hidden="true"><use href="#i-list"/></svg> Wat moet je doen?</h3><div class="modus" role="group" aria-label="Hoe wil je de uitleg?"><button type="button" class="modus-btn" data-modus="stap" aria-pressed="true">Stap voor stap</button><button type="button" class="modus-btn" data-modus="kort" aria-pressed="false">Kort</button></div></div>
+            <ol class="doe">
+              <li><span class="doe-tekst">Lees hieronder de e-mails van Senne en Noor.</span><span class="sub">Noor schreef over een ander onderzoek, aan iemand anders dan jij. Kijk naar de opbouw, niet naar haar zinnen.</span></li>
+              <li><details class="stapjes" open><summary><span class="doe-tekst">Bekijk <strong>deel 1</strong> van je werkdocument.</span><span class="stapjes-knop" aria-hidden="true"></span></summary>
+                <ol class="klein">
+                  <li><p>Scroll in je werkdocument naar <strong>Deel 1</strong>. Rij 1, het onderwerp, staat er al: je leraar deed ze voor.</p><img class="mini" src="assets/stapjes/s2-deel1.png" alt="Deel 1 in het werkdocument. Rij 1, het onderwerp, is al ingevuld en staat in een rood kader." loading="lazy"></li>
+                </ol>
+              </details></li>
+              <li><details class="stapjes" open><summary><span class="doe-tekst">Schrijf bij <strong>rij 2 tot 6</strong> waarom het bij Noor beter werkt.</span><span class="stapjes-knop" aria-hidden="true"></span></summary>
+                <ol class="klein">
+                  <li><p>Klik in rij 2, in de laatste kolom. Schrijf waarom Noors aanspreking beter werkt.<span class="sub">Hoe begint Senne, en hoe begint Noor?</span></p><img class="mini" src="assets/stapjes/s2-rij2.png" alt="Deel 1, rij 2 aanspreking: het lege vak in de laatste kolom staat in een rood kader." loading="lazy"></li>
+                  <li><p>Doe hetzelfde in rij 3, de inleiding.<span class="sub">Weet de ontvanger wie er mailt, en namens wie?</span></p><img class="mini" src="assets/stapjes/s2-rij3.png" alt="Deel 1, rij 3 inleiding: het lege vak in de laatste kolom staat in een rood kader." loading="lazy"></li>
+                  <li><p>Doe hetzelfde in rij 4, het midden.<span class="sub">Weet de ontvanger hoe lang, wanneer en waar? Weet hij wat er met zijn antwoorden gebeurt?</span></p><img class="mini" src="assets/stapjes/s2-rij4.png" alt="Deel 1, rij 4 midden: het lege vak in de laatste kolom staat in een rood kader." loading="lazy"></li>
+                  <li><p>Doe hetzelfde in rij 5, het slot.<span class="sub">Zegt de schrijver tegen wanneer hij een antwoord hoopt? Bedankt hij?</span></p><img class="mini" src="assets/stapjes/s2-rij5.png" alt="Deel 1, rij 5 slot: het lege vak in de laatste kolom staat in een rood kader." loading="lazy"></li>
+                  <li><p>Doe hetzelfde in rij 6, de slotgroet en de handtekening.<span class="sub">Hoe sluiten ze af, en wat staat eronder?</span></p><img class="mini" src="assets/stapjes/s2-rij6.png" alt="Deel 1, rij 6 slotgroet en handtekening: het lege vak in de laatste kolom staat in een rood kader." loading="lazy"></li>
+                </ol>
+              </details></li>
             </ol>
           </div>
           <p class="mail-naam">De e-mail van Senne</p>
@@ -348,19 +364,7 @@
             </div>
             <div class="mail-voet"><span class="mail-knop">Verzenden</span></div>
           </div>
-          <div class="tip"><svg class="ic" aria-hidden="true"><use href="#i-bulb"/></svg><p><strong>Kijk naar de opbouw, niet naar de zinnen.</strong> Noor schreef over een ander onderzoek en aan iemand anders dan jij.</p></div>
-          <details class="help"><summary><img class="mascotte-ico" src="assets/mascotte/dalton_hoofd.webp" alt="" width="28" height="28"> Hulp nodig? Waar moet je kijken?</summary>
-            <div class="help-body">
-              <ul>
-                <li><strong>Aanspreking</strong>: hoe begint Senne, en hoe begint Noor?</li>
-                <li><strong>Inleiding</strong>: weet de ontvanger wie er mailt en namens wie?</li>
-                <li><strong>Midden</strong>: weet de ontvanger hoe lang, wanneer en waar? Weet hij wat er met zijn antwoorden gebeurt?</li>
-                <li><strong>Slot</strong>: zegt de schrijver tegen wanneer hij een antwoord hoopt? Bedankt hij?</li>
-                <li><strong>Slotgroet</strong>: hoe sluiten ze af, en wat staat er onder?</li>
-              </ul>
-              <p>Kijk ook op de theoriekaart, bij <em>Veelgemaakte fouten</em>.</p>
-            </div>
-          </details>
+          <div class="tip"><svg class="ic" aria-hidden="true"><use href="#i-bulb"/></svg><p><strong>Schrijf je alleen wat Noor schreef?</strong> Zeg ook waarom het beter werkt: wat weet de ontvanger bij Noor wel, en bij Senne niet?</p></div>
         </div>
         <footer class="card-nav">
           <button class="btn" type="button" data-goto="1"><svg class="ic" aria-hidden="true"><use href="#i-left"/></svg> Stap 1</button>
@@ -384,19 +388,23 @@
             <div class="ccb-vak"><span class="ccb-naam">Bcc</span><span>Leest mee. Niemand ziet dit adres.</span></div>
           </div>
           <div class="todo-box">
-            <h3><svg class="ic" aria-hidden="true"><use href="#i-list"/></svg> Wat moet je doen?</h3>
-            <ol class="todo">
-              <li>Ga naar <strong>deel 2</strong> van je werkdocument.</li>
-              <li>Schrijf bij elk van de <strong>vier situaties</strong> Aan, Cc of Bcc.</li>
-              <li>Beantwoord <strong>vraag 1</strong>: waarom zet je de 24 leerlingen niet in Cc?</li>
+            <div class="todo-head"><h3><svg class="ic" aria-hidden="true"><use href="#i-list"/></svg> Wat moet je doen?</h3><div class="modus" role="group" aria-label="Hoe wil je de uitleg?"><button type="button" class="modus-btn" data-modus="stap" aria-pressed="true">Stap voor stap</button><button type="button" class="modus-btn" data-modus="kort" aria-pressed="false">Kort</button></div></div>
+            <ol class="doe">
+              <li><details class="stapjes" open><summary><span class="doe-tekst">Schrijf bij elke situatie <strong>Aan</strong>, <strong>Cc</strong> of <strong>Bcc</strong>.</span><span class="stapjes-knop" aria-hidden="true"></span></summary>
+                <ol class="klein">
+                  <li><p>Scroll naar <strong>Deel 2</strong>. Lees situatie a.</p><img class="mini" src="assets/stapjes/s3-situatie-a.png" alt="Deel 2: de vier situaties. Het lege vak rechts van situatie a staat in een rood kader." loading="lazy"></li>
+                  <li><p>Klik rechts in het vak. Typ <strong>Aan</strong>, <strong>Cc</strong> of <strong>Bcc</strong>.<span class="sub">Moet die persoon antwoorden? Dan is het Aan. Leest die alleen mee? Dan is het Cc of Bcc.</span></p></li>
+                  <li><p>Doe hetzelfde voor situatie b, c en d.</p><img class="mini" src="assets/stapjes/s3-situaties-bcd.png" alt="Situatie b, c en d, met de lege vakken rechts in een rood kader." loading="lazy"></li>
+                </ol>
+              </details></li>
+              <li><details class="stapjes" open><summary><span class="doe-tekst">Beantwoord <strong>vraag 1</strong>.</span><span class="stapjes-knop" aria-hidden="true"></span></summary>
+                <ol class="klein">
+                  <li><p>Lees vraag 1. Klik in het vak eronder en typ je antwoord.<span class="sub">Denk aan les 2: je schreef <em>respondent-02</em> in plaats van een naam. Een e-mailadres is ook een persoonsgegeven.</span></p><img class="mini" src="assets/stapjes/s3-vraag1.png" alt="Vraag 1 met het vak voor je antwoord, in een rood kader." loading="lazy"></li>
+                </ol>
+              </details></li>
             </ol>
           </div>
-          <details class="help"><summary><img class="mascotte-ico" src="assets/mascotte/dalton_hoofd.webp" alt="" width="28" height="28"> Hulp nodig?</summary>
-            <div class="help-body">
-              <p>Vraag je bij elke persoon af: moet die antwoorden? Dan is het <strong>Aan</strong>. Alleen meelezen? Dan is het <strong>Cc</strong> of <strong>Bcc</strong>. Mogen de anderen dit adres zien?</p>
-              <p>Bij vraag 1: denk aan les 2. Je schreef <em>respondent-02</em> in plaats van een naam. Een e-mailadres is ook een persoonsgegeven.</p>
-            </div>
-          </details>
+          <div class="tip"><svg class="ic" aria-hidden="true"><use href="#i-bulb"/></svg><p><strong>Twijfel je tussen Cc en Bcc?</strong> Mag iedereen het adres zien? Dan is het Cc. Mag niemand het zien? Dan is het Bcc.</p></div>
         </div>
         <footer class="card-nav">
           <button class="btn" type="button" data-goto="2"><svg class="ic" aria-hidden="true"><use href="#i-left"/></svg> Stap 2</button>
@@ -418,23 +426,37 @@
             <figure><img src="assets/beelden/declercq.webp" alt="Tekening: mevrouw De Clercq leest een e-mail op haar laptop." width="800" height="706"><figcaption>Gemaakt met AI</figcaption></figure>
           </div>
           <div class="todo-box">
-            <h3><svg class="ic" aria-hidden="true"><use href="#i-list"/></svg> Wat moet je doen?</h3>
-            <ol class="todo">
-              <li>Ga naar <strong>deel 3</strong> van je werkdocument: het venster <em>Nieuw bericht</em>.</li>
-              <li>Klik in het vak naast <strong>Aan</strong>. Typ het adres van de jongerenwerker. Het staat in het kader <em>Je onderzoek</em>.</li>
-              <li>Typ naast <strong>Cc</strong> het adres van je onderzoeksbegeleider. Laat <strong>Bcc</strong> leeg.</li>
-              <li>Typ naast <strong>Onderwerp</strong> in een paar woorden waarover je e-mail gaat en van wie hij komt.</li>
-              <li>Schrijf naast <em>aanspreking</em>: <strong>Beste mevrouw De Clercq,</strong></li>
+            <div class="todo-head"><h3><svg class="ic" aria-hidden="true"><use href="#i-list"/></svg> Wat moet je doen?</h3><div class="modus" role="group" aria-label="Hoe wil je de uitleg?"><button type="button" class="modus-btn" data-modus="stap" aria-pressed="true">Stap voor stap</button><button type="button" class="modus-btn" data-modus="kort" aria-pressed="false">Kort</button></div></div>
+            <ol class="doe">
+              <li><details class="stapjes" open><summary><span class="doe-tekst">Ga naar <strong>deel 3</strong>: het venster <em>Nieuw bericht</em>.</span><span class="stapjes-knop" aria-hidden="true"></span></summary>
+                <ol class="klein">
+                  <li><p>Scroll naar <strong>Deel 3</strong>. Daar staat een venster zoals in Gmail.</p><img class="mini" src="assets/stapjes/s4-venster.png" alt="Het venster Nieuw bericht in deel 3, met de vakken Aan, Cc, Bcc en Onderwerp." loading="lazy"></li>
+                </ol>
+              </details></li>
+              <li><details class="stapjes" open><summary><span class="doe-tekst">Typ naast <strong>Aan</strong> het adres van mevrouw De Clercq.</span><span class="stapjes-knop" aria-hidden="true"></span></summary>
+                <ol class="klein">
+                  <li><p>Zoek haar adres in het kader <em>Je onderzoek</em>, bovenaan je werkdocument.</p><img class="mini" src="assets/stapjes/s4-adres.png" alt="Het kader Je onderzoek. Het adres van mevrouw De Clercq staat in een rood kader." loading="lazy"></li>
+                  <li><p>Klik in het vak naast <strong>Aan</strong>. Typ het adres.<span class="sub">Typ letter voor letter. Eén fout en je e-mail komt niet aan.</span></p><img class="mini" src="assets/stapjes/s4-aan.png" alt="Het venster Nieuw bericht. Het vak Aan staat in een rood kader." loading="lazy"></li>
+                </ol>
+              </details></li>
+              <li><details class="stapjes" open><summary><span class="doe-tekst">Typ naast <strong>Cc</strong> het adres van je onderzoeksbegeleider. Laat <strong>Bcc</strong> leeg.</span><span class="stapjes-knop" aria-hidden="true"></span></summary>
+                <ol class="klein">
+                  <li><p>Klik in het vak naast <strong>Cc</strong>. Typ het adres van mevrouw Coppens.<span class="sub">Het adres staat ook in het kader <em>Je onderzoek</em>. Je begeleider leest mee, maar moet niets doen.</span></p><img class="mini" src="assets/stapjes/s4-cc.png" alt="Het venster Nieuw bericht. Het vak Cc staat in een rood kader." loading="lazy"></li>
+                </ol>
+              </details></li>
+              <li><details class="stapjes" open><summary><span class="doe-tekst">Typ naast <strong>Onderwerp</strong> waarover je e-mail gaat en van wie hij komt.</span><span class="stapjes-knop" aria-hidden="true"></span></summary>
+                <ol class="klein">
+                  <li><p>Klik in het vak naast <strong>Onderwerp</strong>. Typ in een paar woorden waarover je mailt en van wie de e-mail komt.<span class="sub">Kijk naar rij 1 in deel 1: zo deed Noor het, voor haar onderzoek.</span></p><img class="mini" src="assets/stapjes/s4-onderwerp.png" alt="Het venster Nieuw bericht. Het vak Onderwerp staat in een rood kader." loading="lazy"></li>
+                </ol>
+              </details></li>
+              <li><details class="stapjes" open><summary><span class="doe-tekst">Schrijf de aanspreking.</span><span class="stapjes-knop" aria-hidden="true"></span></summary>
+                <ol class="klein">
+                  <li><p>Klik naast <em>aanspreking</em>. Typ: <strong>Beste mevrouw De Clercq,</strong><span class="sub">Met een komma. Je kent haar niet: dus geen voornaam. Heel officieel mag ook: <em>Geachte mevrouw De Clercq,</em></span></p><img class="mini" src="assets/stapjes/s4-aanspreking.png" alt="Het venster Nieuw bericht. De regel aanspreking staat in een rood kader." loading="lazy"></li>
+                </ol>
+              </details></li>
             </ol>
           </div>
-          <div class="tip"><svg class="ic" aria-hidden="true"><use href="#i-bulb"/></svg><p><strong>Een goed onderwerp</strong> zegt waarover het gaat en van wie het komt. Kijk naar rij 1 in deel 1 en maak er een onderwerp van voor jouw onderzoek.</p></div>
-          <details class="help"><summary><img class="mascotte-ico" src="assets/mascotte/dalton_hoofd.webp" alt="" width="28" height="28"> Hulp nodig?</summary>
-            <div class="help-body">
-              <p>Typ het adres letter voor letter over. Eén fout en je e-mail komt niet aan.</p>
-              <p>Waarom Cc? Je onderzoeksbegeleider leest mee, maar moet niets doen. Kijk op de theoriekaart bij <em>Aan, Cc of Bcc?</em></p>
-              <p>Waarom geen voornaam? Je kent mevrouw De Clercq niet. Daarom schrijf je <em>Beste mevrouw De Clercq,</em> — met een komma achteraan. Heel officieel mag ook: <em>Geachte mevrouw De Clercq,</em></p>
-            </div>
-          </details>
+          <div class="tip"><svg class="ic" aria-hidden="true"><use href="#i-bulb"/></svg><p><strong>Staat er alleen <em>interview</em> in je onderwerp?</strong> Zeg ook waarover het gaat en van wie het komt. Kijk naar rij 1 in deel 1.</p></div>
         </div>
         <footer class="card-nav">
           <button class="btn" type="button" data-goto="3"><svg class="ic" aria-hidden="true"><use href="#i-left"/></svg> Stap 3</button>
@@ -460,27 +482,34 @@
             <li><span class="bp-naam">handtekening</span><span class="bp-tekst">naam, klas, Onderzoekslabo, school</span></li>
           </ol>
           <div class="todo-box">
-            <h3><svg class="ic" aria-hidden="true"><use href="#i-list"/></svg> Wat moet je doen?</h3>
-            <ol class="todo">
-              <li>Schrijf in het venster naast <em>inleiding</em> wie je bent, namens wie je mailt en waarom.</li>
-              <li>Schrijf naast <em>midden</em> je vraag. Gebruik de feiten uit het kader <em>Je onderzoek</em>.</li>
-              <li>Schrijf naast <em>slot</em> tegen wanneer je een antwoord hoopt. Bedank haar.</li>
-              <li>Schrijf naast <em>slotgroet</em> <strong>Met vriendelijke groeten,</strong> en naast <em>handtekening</em> je naam, je klas, het Onderzoekslabo en je school.</li>
+            <div class="todo-head"><h3><svg class="ic" aria-hidden="true"><use href="#i-list"/></svg> Wat moet je doen?</h3><div class="modus" role="group" aria-label="Hoe wil je de uitleg?"><button type="button" class="modus-btn" data-modus="stap" aria-pressed="true">Stap voor stap</button><button type="button" class="modus-btn" data-modus="kort" aria-pressed="false">Kort</button></div></div>
+            <ol class="doe">
+              <li><details class="stapjes" open><summary><span class="doe-tekst">Schrijf je inleiding.</span><span class="stapjes-knop" aria-hidden="true"></span></summary>
+                <ol class="klein">
+                  <li><p>Klik naast <em>inleiding</em>. Schrijf wie je bent, namens wie je mailt en waarom.<span class="sub">Begin zo, en maak de zinnen af: <em>Mijn naam is … en ik zit in … van GO! Dalton Gent. Samen met mijn onderzoeksgroep onderzoek ik … namens het Onderzoekslabo Jongeren &amp; Welzijn.</em></span></p><img class="mini" src="assets/stapjes/s5-inleiding.png" alt="Het bericht in het venster. De regel inleiding staat in een rood kader." loading="lazy"></li>
+                </ol>
+              </details></li>
+              <li><details class="stapjes" open><summary><span class="doe-tekst">Schrijf je vraag in het midden.</span><span class="stapjes-knop" aria-hidden="true"></span></summary>
+                <ol class="klein">
+                  <li><p>Zoek in het kader <em>Je onderzoek</em> wat je vraagt.</p><img class="mini" src="assets/stapjes/s1-vraag.png" alt="Het kader Je onderzoek. Wat je vraagt, wat er met haar antwoorden gebeurt en tegen wanneer je een antwoord hoopt, staan in een rood kader." loading="lazy"></li>
+                  <li><p>Klik naast <em>midden</em>. Vraag of je haar mag interviewen: hoe lang, wanneer en waar.<span class="sub">Bijvoorbeeld: <em>Mag ik u daarover interviewen? Het interview duurt ongeveer …</em></span></p><img class="mini" src="assets/stapjes/s5-midden.png" alt="Het bericht in het venster. De regel midden staat in een rood kader." loading="lazy"></li>
+                  <li><p>Schrijf erachter wat er met haar antwoorden gebeurt.<span class="sub">Bijvoorbeeld: <em>Uw naam komt niet in ons verslag. …</em></span></p></li>
+                </ol>
+              </details></li>
+              <li><details class="stapjes" open><summary><span class="doe-tekst">Schrijf je slot.</span><span class="stapjes-knop" aria-hidden="true"></span></summary>
+                <ol class="klein">
+                  <li><p>Klik naast <em>slot</em>. Schrijf tegen wanneer je een antwoord hoopt, en bedank haar.<span class="sub">Bijvoorbeeld: <em>Kan u mij vóór … laten weten welk moment past? Alvast bedankt …</em></span></p><img class="mini" src="assets/stapjes/s5-slot.png" alt="Het bericht in het venster. De regel slot staat in een rood kader." loading="lazy"></li>
+                </ol>
+              </details></li>
+              <li><details class="stapjes" open><summary><span class="doe-tekst">Sluit af met een slotgroet en je handtekening.</span><span class="stapjes-knop" aria-hidden="true"></span></summary>
+                <ol class="klein">
+                  <li><p>Klik naast <em>slotgroet</em>. Typ: <strong>Met vriendelijke groeten,</strong></p><img class="mini" src="assets/stapjes/s5-slotgroet.png" alt="Het bericht in het venster. De regels slotgroet en handtekening staan in een rood kader." loading="lazy"></li>
+                  <li><p>Typ naast <em>handtekening</em> je naam, je klas, het Onderzoekslabo en je school.<span class="sub">Elk op een eigen regel, zoals bij Noor.</span></p></li>
+                </ol>
+              </details></li>
             </ol>
           </div>
-          <div class="tip warn"><svg class="ic" aria-hidden="true"><use href="#i-alert"/></svg><p><strong>Schrijf u en uw, niet je en jij.</strong> Je kent mevrouw De Clercq niet. Dus: <em>Mag ik u interviewen?</em></p></div>
-          <details class="help"><summary><img class="mascotte-ico" src="assets/mascotte/dalton_hoofd.webp" alt="" width="28" height="28"> Hulp nodig? Zinnen om mee te beginnen</summary>
-            <div class="help-body">
-              <ul>
-                <li><em>Mijn naam is … en ik zit in … van GO! Dalton Gent.</em></li>
-                <li><em>Samen met mijn onderzoeksgroep onderzoek ik … namens het Onderzoekslabo Jongeren &amp; Welzijn.</em></li>
-                <li><em>Mag ik u daarover interviewen? Het interview duurt ongeveer …</em></li>
-                <li><em>Uw naam komt niet in ons verslag. …</em></li>
-                <li><em>Kan u mij vóór … laten weten welk moment past? Alvast bedankt …</em></li>
-              </ul>
-              <p>Maak de zinnen af met je eigen woorden. Begin elke alinea tegen de linkerkant.</p>
-            </div>
-          </details>
+          <div class="tip warn"><svg class="ic" aria-hidden="true"><use href="#i-alert"/></svg><p><strong>Schreef je <em>je</em> of <em>jij</em>?</strong> Verander het in <em>u</em> of <em>uw</em>. Je kent mevrouw De Clercq niet.</p></div>
         </div>
         <footer class="card-nav">
           <button class="btn" type="button" data-goto="4"><svg class="ic" aria-hidden="true"><use href="#i-left"/></svg> Stap 4</button>
@@ -497,24 +526,32 @@
           <h2 id="h-6">Feedback van je buur</h2>
         </header>
         <div class="card-body">
-          <p class="intro">Een testlezer ziet sneller wat beter kan. Daarom leest je buur je e-mail eerst na, met de checklist in deel 4. Daarna doe jij hetzelfde voor je buur.</p>
+          <p class="intro">Een testlezer ziet sneller wat beter kan. Daarom leest je buur je e-mail eerst na, met de tabel in deel 4. Daarna doe jij hetzelfde voor je buur.</p>
           <div class="todo-box">
-            <h3><svg class="ic" aria-hidden="true"><use href="#i-list"/></svg> Wat moet je doen?</h3>
-            <ol class="todo">
-              <li>Laat je buur je e-mail lezen op jouw scherm.</li>
-              <li>Je buur kruist in <strong>deel 4</strong> aan wat klopt.</li>
-              <li>Je buur schrijft <strong>één top</strong> en <strong>één tip</strong> op.</li>
-              <li>Pas minstens één ding aan in je e-mail. Schrijf op wat je aanpaste.</li>
-              <li>Lees nu de e-mail van je buur na met de checklist.</li>
+            <div class="todo-head"><h3><svg class="ic" aria-hidden="true"><use href="#i-list"/></svg> Wat moet je doen?</h3><div class="modus" role="group" aria-label="Hoe wil je de uitleg?"><button type="button" class="modus-btn" data-modus="stap" aria-pressed="true">Stap voor stap</button><button type="button" class="modus-btn" data-modus="kort" aria-pressed="false">Kort</button></div></div>
+            <ol class="doe">
+              <li><span class="doe-tekst">Laat je buur je e-mail lezen op jouw scherm.</span><span class="sub">Is er geen buur om mee te werken? Zeg het aan je leraar.</span></li>
+              <li><details class="stapjes" open><summary><span class="doe-tekst">Je buur kruist in <strong>deel 4</strong> aan wat klopt.</span><span class="stapjes-knop" aria-hidden="true"></span></summary>
+                <ol class="klein">
+                  <li><p>Scroll naar <strong>Deel 4</strong>.</p><img class="mini" src="assets/stapjes/s6-deel4.png" alt="Deel 4 Feedback van je buur: een tabel. Links een leeg vak, in het midden wat moet kloppen, rechts de punten." loading="lazy"></li>
+                  <li><p>Klopt een zin? Je buur klikt in het vak ervoor en typt <strong>x</strong>.</p><img class="mini" src="assets/stapjes/s6-kruis.png" alt="Deel 4: in het vak voor de eerste zin staat nu een x, in een rood kader." loading="lazy"></li>
+                </ol>
+              </details></li>
+              <li><details class="stapjes" open><summary><span class="doe-tekst">Je buur schrijft een <strong>top</strong> en een <strong>tip</strong>.</span><span class="stapjes-knop" aria-hidden="true"></span></summary>
+                <ol class="klein">
+                  <li><p>Je buur klikt in het vak onder <em>Dit is goed</em> en typt een top.</p><img class="mini" src="assets/stapjes/s6-top.png" alt="Deel 4: de vraag Dit is goed met het vak eronder, in een rood kader." loading="lazy"></li>
+                  <li><p>Je buur klikt in het vak onder <em>Dit kan beter</em> en typt een tip.<span class="sub">Een goede tip zegt wat beter kan: <em>Je zegt niet tegen wanneer je een antwoord wil.</em> Niet alleen: <em>Goed zo!</em></span></p><img class="mini" src="assets/stapjes/s6-tip.png" alt="Deel 4: de vraag Dit kan beter met het vak eronder, in een rood kader." loading="lazy"></li>
+                </ol>
+              </details></li>
+              <li><details class="stapjes" open><summary><span class="doe-tekst">Pas minstens één ding aan in je e-mail.</span><span class="stapjes-knop" aria-hidden="true"></span></summary>
+                <ol class="klein">
+                  <li><p>Pas je e-mail aan. Schrijf onder <em>Wat heb ik aangepast?</em> wat je veranderde.</p><img class="mini" src="assets/stapjes/s6-aangepast.png" alt="Deel 4: de vraag Wat heb ik aangepast? met het vak eronder, in een rood kader." loading="lazy"></li>
+                </ol>
+              </details></li>
+              <li><span class="doe-tekst">Wissel: lees nu de e-mail van je buur na, met deel 4 in het werkdocument van je buur.</span></li>
             </ol>
           </div>
-          <details class="help"><summary><img class="mascotte-ico" src="assets/mascotte/dalton_hoofd.webp" alt="" width="28" height="28"> Hulp nodig?</summary>
-            <div class="help-body">
-              <p>Is je buur nog niet klaar? Lees dan eerst zelf je e-mail na met de checklist in deel 4.</p>
-              <p>Een goede tip zegt <strong>wat</strong> beter kan: <em>Je zegt niet tegen wanneer je een antwoord wil.</em> Niet alleen: <em>Goed zo!</em></p>
-              <p>Is er geen buur om mee te werken? Zeg het aan je leraar.</p>
-            </div>
-          </details>
+          <div class="tip"><svg class="ic" aria-hidden="true"><use href="#i-bulb"/></svg><p><strong>Is je buur nog niet klaar?</strong> Lees dan eerst zelf je e-mail na, met de tabel in deel 4.</p></div>
         </div>
         <footer class="card-nav">
           <button class="btn" type="button" data-goto="5"><svg class="ic" aria-hidden="true"><use href="#i-left"/></svg> Stap 5</button>
@@ -565,12 +602,20 @@
             </div>
           </div>
           <div class="todo-box">
-            <h3><svg class="ic" aria-hidden="true"><use href="#i-list"/></svg> Wat moet je doen?</h3>
-            <ol class="todo">
-              <li>Loop de <strong>checklist</strong> na. Staat er nog iets open? Werk het eerst af.</li>
-              <li>Beantwoord in <strong>deel 5</strong> de slotvraag.</li>
-              <li>Klik bovenaan op het tabblad <strong class="met-logo"><img class="logo" src="assets/logos/classroom.svg" alt="">Google Classroom</strong>.</li>
-              <li>Klik rechts, bij <strong>Jouw werk</strong>, op <span class="ui">Inleveren</span> en bevestig.</li>
+            <div class="todo-head"><h3><svg class="ic" aria-hidden="true"><use href="#i-list"/></svg> Wat moet je doen?</h3><div class="modus" role="group" aria-label="Hoe wil je de uitleg?"><button type="button" class="modus-btn" data-modus="stap" aria-pressed="true">Stap voor stap</button><button type="button" class="modus-btn" data-modus="kort" aria-pressed="false">Kort</button></div></div>
+            <ol class="doe">
+              <li><span class="doe-tekst">Loop de <strong>checklist</strong> na. Staat er nog iets open? Werk het eerst af.</span></li>
+              <li><details class="stapjes" open><summary><span class="doe-tekst">Beantwoord in <strong>deel 5</strong> de slotvraag.</span><span class="stapjes-knop" aria-hidden="true"></span></summary>
+                <ol class="klein">
+                  <li><p>Scroll naar <strong>Deel 5</strong>. Klik in het vak en typ je antwoord.</p><img class="mini" src="assets/stapjes/s7-deel5.png" alt="Deel 5 Slotvraag: de vraag met het vak eronder, in een rood kader." loading="lazy"></li>
+                </ol>
+              </details></li>
+              <li><details class="stapjes" open><summary><span class="doe-tekst">Lever in.</span><span class="stapjes-knop" aria-hidden="true"></span></summary>
+                <ol class="klein">
+                  <li><p>Klik bovenaan op het tabblad <strong class="met-logo"><img class="logo" src="assets/logos/classroom.svg" alt="">Google Classroom</strong>.</p><div class="teken-tabs" role="img" aria-label="Tekening van de tabbladen bovenaan in Chrome. Het tabblad Google Classroom staat in een rood kader."><span class="tt-tab wijs"><img class="logo" src="assets/logos/classroom.svg" alt="">Google Classroom</span><span class="tt-tab"><img class="logo" src="assets/logos/lespagina.webp" alt="">Lespagina · Les 3</span><span class="tt-tab actief"><img class="logo" src="assets/logos/docs.svg" alt="">Interviewmail</span></div></li>
+                  <li><p>Klik rechts, bij <strong>Jouw werk</strong>, op <span class="ui">Inleveren</span> en bevestig.</p><div class="mock mock-opdracht mini-mock" role="img" aria-label="Tekening van de opdracht. Bij Jouw werk staat de knop Inleveren in een rood kader."><div class="mo-midden"><div class="mo-titel"><img class="logo" src="assets/logos/classroom.svg" alt="">Les 3 — De formele e-mail</div><div class="mo-chip"><img class="logo" src="assets/logos/lespagina.webp" alt=""><span>Lespagina</span></div><div class="mo-chip ai-hulp"><svg class="ic" aria-hidden="true"><use href="#i-spark"/></svg><span>AI-hulp</span></div></div><div class="mo-werk"><div class="mo-werk-kop">Jouw werk</div><div class="mo-chip"><img class="logo" src="assets/logos/docs.svg" alt=""><span>Interviewmail</span></div><div class="mo-knop wijs">Inleveren</div></div></div></li>
+                </ol>
+              </details></li>
             </ol>
           </div>
           <h3 class="vert-kop">Hier lever je in</h3>

@@ -190,9 +190,11 @@ twee groepsgenoten, die moeten weten wat je vroeg. Vraag 1: *Waarom zet je de 24
 | 4–4'30" | 3 lesdoel | `wijzen_links` | voorlezen |
 | 4'30"–6' | 4 eindproduct | — | het bouwplan in het venster: ontvangers · onderwerp · aanspreking · inleiding · midden · slot · slotgroet · handtekening |
 | 6–8' | 5 demo | — | Aan, Cc of Bcc: wie moet antwoorden, wie leest mee, wie mag elkaars adres niet zien; waar je dat typt in *Interviewmail* |
-| 8–9'30" | 6 demo | `letop` *(volgt)* | rij 1 van deel 1: het onderwerp van Senne naast dat van Noor (*Fout 1 doen we samen*) |
-| 9'30"–10' | 7 *Zo werk je verder* | `laptop` *(volgt)* | blijft staan tijdens de keuzewerktijd |
-| laatste minuut | 8 exitvraag | `hulp` | = deel 5; mondeling: wie niet klaar is, levert toch in |
+| 8–9'30" | 6 demo | `letop` | rij 1 van deel 1: het onderwerp van Senne naast dat van Noor (*Fout 1 doen we samen*) |
+| 9'30"–10'30" | 7 controle | — | *Waar zet je je begeleider?* Iedereen antwoordt met 1, 2 of 3 vingers (A Aan, B Cc, C Bcc); wie fout heeft, komt bij Jonas (sinds 14-10-2026, `_afspraken/presentatie.md`) |
+| 3' (KWT) | 8 *Iedereen doet stap 1* | — | samen: lespagina › stap 1, *Interviewmail* open, het kader *Je onderzoek*; duim op |
+| daarna | 9 *Zo werk je verder* | `laptop` | blijft staan tijdens de keuzewerktijd, met kloktijden; stap 1 staat er als *samen ✓* |
+| laatste minuut | 10 exitvraag | casusbeeld | = deel 5; mondeling: wie niet klaar is, levert toch in |
 
 Stap 2 tot 6 doen ze zelf: geen klassikale demo van wat ze meteen zelf doen (`_afspraken/didactiek.md`).
 
@@ -213,7 +215,8 @@ Stap 2 tot 6 doen ze zelf: geen klassikale demo van wat ze meteen zelf doen (`_a
 
 - **Minimumroute:** stap 1, 4, 5 en 7 (de eigen e-mail en inleveren).
 - Scaffolds: het kader *Je onderzoek* (de feiten staan er al; de leerling formuleert); de grijze labels in
-  het venster; de e-mail van Noor als model; zinsbeginnen bij *Hulp nodig?* in stap 5; de theoriekaart; de
+  het venster; de e-mail van Noor als model; *Stap voor stap*: kleine stapjes met een beeld, en de vragen en
+  zinsbeginnen als grijze regels eronder (sinds 14-10-2026; *Kort* toont alleen de handelingen); de theoriekaart; de
   checklist in deel 4; de AI-hulp.
 - Snelle leerlingen: de E-mailquiz (Extra), of feedback geven aan een tweede klasgenoot.
 - Oneven aantal in stap 6: een groepje van drie, of Jonas leest mee. Wie zijn buur nog niet klaar ziet,
@@ -223,7 +226,7 @@ Stap 2 tot 6 doen ze zelf: geen klassikale demo van wat ze meteen zelf doen (`_a
 ## 21. Controle van begrip
 
 Vingers bij de lesstart; rondgang 1 (twee tabbladen open, rij 2 van deel 1 begonnen?) en rondgang 2 (Aan
-en Cc juist, u-vorm); de checklist van de buur in stap 6; zelftest in stap 7; de exitvraag (dia 8 = deel 5).
+en Cc juist, u-vorm); de checklist van de buur in stap 6; zelftest in stap 7; de controledia (dia 7) en *Iedereen doet stap 1* (dia 8); de exitvraag (dia 10 = deel 5).
 
 ## 22. Evaluatiecriteria en essentiële fouten
 
@@ -254,7 +257,7 @@ Classroom.
 ## 24. Indieninstructies
 
 *Inleveren* in de opdracht, ten laatste vrijdag 16 oktober 2026, 20.00 uur. Er wordt niets verstuurd. Wie
-niet klaar is, levert toch in (mondeling, dia 8).
+niet klaar is, levert toch in (mondeling, dia 10).
 
 ## 25. Privacy, auteursrecht en digitale veiligheid
 
@@ -273,15 +276,16 @@ Bcc en privacy verder. In les 30 komt de e-mail in het portfolio.
 ## 27. Inhoudsstructuur van de lespagina
 
 Start (*Wat heb je nodig?* in drie beelden in twee kolommen: de opdracht, de lespagina, het werkdocument ·
-*Na deze les kan je* · *Vast?* als rij: *Hulp nodig?*, je buur, AI-hulp, je leraar) · Theoriekaart (kaartjes uit het vakinhoudbestand: de delen van een e-mail · Aan, Cc,
+*Na deze les kan je* · *Vast?* als rij: *Toon stapjes*, je buur, AI-hulp, je leraar) · Theoriekaart (kaartjes uit het vakinhoudbestand: de delen van een e-mail · Aan, Cc,
 Bcc · het onderwerp · de aanspreking · inleiding – midden – slot · een vraag stellen · slotgroet en
-handtekening · u-vorm · een testlezer · de AI-hulp) · stappen 1–7 · Extra (E-mailquiz) · checklist.
+handtekening · u-vorm · een testlezer · de AI-hulp) · stappen 1–7, elk met *Wat moet je doen?* als handelingen die
+openklappen tot kleine stapjes met een beeld (*Stap voor stap / Kort*, sinds 14-10-2026) · Extra (E-mailquiz) · checklist.
 
 ## 28. Interactieve functies
 
 Route met onthouden stap; checklist met voortgang en groene vinkjes; zelftest (3 vragen) en E-mailquiz (4
-vragen) met directe feedback; `?leraar`; `data-ai-hulp="aan"` toont de AI-hulp. `localStorage` alleen voor
-vinkjes en de stap (`labo_interviewmail_v1_`).
+vragen) met directe feedback; de knop *Stap voor stap / Kort*; `?leraar`; `data-ai-hulp="aan"` toont de AI-hulp.
+`localStorage` alleen voor vinkjes, de stap en de keuze *Stap voor stap* of *Kort* (`labo_interviewmail_v1_`).
 
 ## Bronnenonderzoek
 

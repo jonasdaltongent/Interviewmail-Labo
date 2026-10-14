@@ -22,14 +22,16 @@
 ```text
 W07 - Les 03 - MWW - De formele e-mail/
 ├── index.html              de lespagina: startpagina in beelden · route · één stap · checklist
-├── presentatie.html        8 dia's; dia 1 is de vaste startdia "Zo start je"
-├── css/style.css           lespagina (uit het sjabloon, met .nodig, .vast, .mail, .ccb, .bouwplan, de mascotte)
+├── presentatie.html        10 dia's; dia 1 is de vaste startdia "Zo start je"
+├── css/style.css           lespagina (uit het sjabloon, met .nodig, .vast, .mail, .ccb, .bouwplan, de mascotte, Stap voor stap / Kort)
 ├── css/slides.css          dia's (uit het sjabloon, met .startroute, .met-mascotte en .kloklijst)
 ├── js/script.js, js/slides.js
-├── assets/                 logo's van het Onderzoekslabo en GO! Dalton Gent, lettertypes (OFL), mascotte Dalton, beelden/ (Nano Banana)
+├── assets/                 logo's van het Onderzoekslabo en GO! Dalton Gent, lettertypes (OFL), mascotte Dalton, beelden/ (Nano Banana),
+│                           stapjes/ (27 uitsneden van het werkdocument)
 ├── werkdocument/
 │   ├── Interviewmail.docx          het werkdocument dat de leerling INLEVERT
 │   ├── maak_werkdocumenten.py      maakt het opnieuw (python-docx)
+│   ├── maak_stapjes.py             maakt de beelden bij de stapjes opnieuw, uit de pdf van Google Documenten
 │   └── huisstijl.py, go-dalton-gent.png   de huisstijl van het werkdocument (uit _sjablonen/lespakket/werkdocument/)
 ├── lesvoorbereiding.md     de lesvoorbereiding (28 punten)
 ├── dalton-lesfiche.html    de Dalton-lesfiche in de kleurcode: openen, Kopieer de fiche, plakken
@@ -55,13 +57,22 @@ opbouw over, niet de zinnen. Ze staan op de lespagina (stap 2) en in deel 1 van 
 ### 1b. Hoe de lespagina werkt
 
 - **Startpagina**: *Wat heb je nodig?* in drie grote beelden in twee kolommen (de opdracht, de lespagina, het
-  werkdocument), *Na deze les kan je*, en *Vast?* als genummerde rij: *Hulp nodig?*, je buur, de AI-hulp, je
+  werkdocument), *Na deze les kan je*, en *Vast?* als genummerde rij: *Toon stapjes*, je buur, de AI-hulp, je
   leraar. Bijgewerkt op 14-10-2026 volgens `_afspraken/lespagina.md` (*Groot genoeg*, de kortere hulpvolgorde).
-- **Stap 7** toont onder *Wat moet je doen?* een tekening van de opdracht met **Inleveren** in een rood kader
-  (*Hier lever je in*, zoals MW les 4): bij 3MWb was *Waar moet ik inleveren?* de vraag die het vaakst kwam
+- **Stap voor stap / Kort** (14-10-2026, Jonas: "Ik merk net dat de les van 3MWWE nog niet voldoet aan stap voor
+  stap en kort"; zoals MW les 3): elke handeling is één vette regel; open je ze, dan zie je de kleine stapjes,
+  elk met één beeld (`assets/stapjes/`, of een tekening van de opdracht of de tabbladen). Bovenaan *Wat moet je
+  doen?* zet de knop *Stap voor stap* alles open en *Kort* alles dicht; een leerling kan ook één regel openen. De
+  les begint in *Stap voor stap* (`data-modus-start="stap"`); de keuze wordt per les onthouden. *Hulp nodig?* is
+  weg: wat erin stond, staat nu als grijze regel onder het stapje waar het misloopt (de vragen bij rij 2 tot 6
+  in stap 2, de zinsbeginnen in stap 5), en het tipvak bevat de meest waarschijnlijke fout.
+- **Stap 7** toont onder *Wat moet je doen?* ook nog een tekening van de opdracht met **Inleveren** in een rood kader
+  (*Hier lever je in*, zoals MW les 4): zo staat ze ook in *Kort* in beeld: bij 3MWb was *Waar moet ik inleveren?* de vraag die het vaakst kwam
   (12-10-2026).
-- **Dia 7** toont kloktijden uit de planning (`_tools/zet_lesmomenten.py`): buiten de les die van do 15-10, 8ste
-  uur (tot 15.24); tijdens de les rekent ze vanaf nu tot de bel. **T** rekent opnieuw.
+- **Dia 7** is de controle (*Waar zet je je begeleider?*, iedereen antwoordt met vingers), **dia 8** *Iedereen doet
+  stap 1* (14-10-2026, `_afspraken/presentatie.md`).
+- **Dia 9** toont kloktijden uit de planning (`_tools/zet_lesmomenten.py`), met stap 1 als *samen ✓*: buiten de les
+  die van do 15-10, 8ste uur (tot 15.24); tijdens de les rekent ze vanaf nu tot de bel. **T** rekent opnieuw.
 - **Route** links, **één stap** in het midden, **checklist** rechts (20 taken). Op een smal scherm staat alles
   onder elkaar.
 - De **titel van de pagina** begint met *Lespagina · Les 3*: zo heet de link in de opdracht en het tabblad in
@@ -69,7 +80,7 @@ opbouw over, niet de zinnen. Ze staan op de lespagina (stap 2) en in deel 1 van 
 - **AI-hulp**: aan (`data-ai-hulp="aan"` op `<body>`), want de Gemini Notebook hangt aan de opdracht
   (`_afspraken/ai-hulp.md`).
 - **Mascotte Dalton**: op de startpagina, bij *Hulp nodig?*, in de laatste stap en in de eindmelding; op de
-  dia's 2, 3, 6 (*letop*), 7 (*laptop*) en 8. De poses van dia 6 en 7 staan erin sinds 11-10-2026 (`1320dcf`).
+  dia's 2, 3, 6 (*letop*) en 9 (*laptop*); niet op dia 7 en 8. De poses van dia 6 en 7 staan erin sinds 11-10-2026 (`1320dcf`).
 - `?leraar` achter het adres toont de screenshot-plaatsen (deze les heeft er geen: de beelden zijn tekeningen).
 
 ## 2. Klaarzetten
@@ -170,11 +181,13 @@ werkdocument. De e-mailregels komen uit `_vakinhoud/digitale-communicatie.md` (T
 | Start | 0–2' | 1 | aanmelden met de vaste startdia, tot de lespagina open is |
 | Lesstart | 2–4' | 2 | waarom heette het bestand `interview_respondent-02`? (vingers, dan →) |
 | Ik doe | 4–9'30" | 3–6 | lesdoel · het eindproduct in acht delen · Aan, Cc of Bcc · rij 1 van deel 1 (het onderwerp) |
-| Keuzewerktijd | 9'30"–50' | 7 | stap 1–7, *Zo werk je verder* blijft staan |
-| Afsluiten | laatste minuut | 8 | de exitvraag (= deel 5); wie niet klaar is, levert toch in |
+| Controle | 1' | 7 | *Waar zet je je begeleider?* — iedereen antwoordt met vingers; wie fout heeft, komt bij jou |
+| Samen | 3' | 8 | iedereen doet stap 1 terwijl jij de schermen ziet; duim op als ze klaar zijn |
+| Keuzewerktijd | tot het einde | 9 | stap 2–7, *Zo werk je verder* blijft staan, met **kloktijden** (T rekent opnieuw) |
+| Afsluiten | laatste minuut | 10 | de exitvraag (= deel 5); wie niet klaar is, levert toch in |
 
-**Eerste rondgang** (stap 1–2): heeft iedereen de lespagina én *Interviewmail* open, in twee tabbladen, en is rij
-2 van deel 1 begonnen? **Tweede rondgang** (stap 4–5): Aan en Cc juist overgetypt, Bcc leeg, *u* in plaats van
+**Eerste rondgang** (stap 2): is iedereen aan rij 2 van deel 1 begonnen? Wie nog geen twee tabbladen open heeft
+(de lespagina en *Interviewmail*), eerst dat. **Tweede rondgang** (stap 4–5): Aan en Cc juist overgetypt, Bcc leeg, *u* in plaats van
 *je*? Vraag: *"Lees je midden luidop: weet mevrouw De Clercq nu wanneer en hoe lang?"*
 
 ## 4. Verbetersleutel
@@ -202,7 +215,13 @@ werkdocument. De e-mailregels komen uit `_vakinhoud/digitale-communicatie.md` (T
 
 ## 5. Schermafbeeldingen (optioneel)
 
-Niet nodig: de beelden op de startpagina, in stap 2 en op de dia's zijn tekeningen in HTML en CSS.
+De beelden bij de stapjes (`assets/stapjes/`, 27 stuks) zijn uitsneden van het werkdocument zoals Google
+Documenten het toont, op ware grootte, met één rood kader (#C5221F, witte rand erbuiten), zoals in MW les 3.
+`werkdocument/maak_stapjes.py` maakt ze uit de pdf die Google Documenten van *Interviewmail* maakt, en uit een
+tweede pdf met een x in deel 4 (*Test Interviewmail (Claude)*, in de demomap van je Drive); uitleg bovenaan het
+script. Verandert het werkdocument, draai het dan opnieuw. De opdracht in Classroom en de tabbladen van Chrome
+zijn tekeningen in HTML en CSS (`.mock-opdracht`, `.teken-tabs`, het kader is `.wijs`), net als de beelden op de
+startpagina, in stap 2 en op de dia's.
 
 ## 6. Het materiaal opnieuw maken
 
@@ -216,6 +235,11 @@ cd "/Volumes/Littlecisboy/Google drive/Toegepaste Informatica/2026-2027/W07 - Le
 `BV2_04.04` voorbereidend. De pre-push hook schrijft ze in `Leerplandoelen 2026-2027.xlsx`.
 
 ## 8. Wat nog moet blijken in de klas
+
+- **Stap voor stap / Kort** (14-10-2026, voor het eerst in 3MWWE): kiezen leerlingen zelf *Kort*, of laten ze alles
+  open? Klappen ze in *Kort* een regel open als ze vastzitten? Wordt stap 2 te lang, met de e-mails van Senne en
+  Noor onder vijf stapjes?
+- Komen ze vlotter op gang na de controledia en *Iedereen doet stap 1*?
 
 - **Het nieuwe werkdocument** (12-10-2026): geen naam/klas/datum en *Zo werk je* meer, de volledige e-mails van
   Senne en Noor alleen nog op de lespagina, antwoorden in lichtblauwe vakken, deel 4 met de punten van § 22.
