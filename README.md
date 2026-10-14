@@ -63,17 +63,8 @@ opbouw over, niet de zinnen. Ze staan op de lespagina (stap 2) en in deel 1 van 
 - **AI-hulp**: aan (`data-ai-hulp="aan"` op `<body>`), want de Gemini Notebook hangt aan de opdracht
   (`_afspraken/ai-hulp.md`).
 - **Mascotte Dalton**: op de startpagina, bij *Hulp nodig?*, in de laatste stap en in de eindmelding; op de
-  dia's 2, 3 en 8. Zie *Mascotte: wat nog volgt* hieronder.
+  dia's 2, 3, 6 (*letop*), 7 (*laptop*) en 8. De poses van dia 6 en 7 staan erin sinds 11-10-2026 (`1320dcf`).
 - `?leraar` achter het adres toont de screenshot-plaatsen (deze les heeft er geen: de beelden zijn tekeningen).
-
-### Mascotte: wat nog volgt
-
-De poses `dalton_letop.webp` (dia 6, *Fout 1 doen we samen*) en `dalton_laptop.webp` (dia 7, *Zo werk je
-verder*) bestaan nog niet. Dia 6 en 7 hebben al `class="slide met-mascotte"` (de tekst blijft links, 300 px
-rechts is vrij; gemeten op 1280 × 720: niets valt buiten het beeld). In `presentatie.html` staat op de plaats van
-de afbeelding een commentaar `<!-- MASCOTTE VOLGT: <img … src = "assets/mascotte/dalton_….webp" …> -->`. Zodra de
-`.webp` in `assets/mascotte/` staat: haal de commentaartekens weg en verwijder de spaties rond `=` in `src`.
-(Die spaties staan er zodat `controleer_les.py` het commentaar niet als ontbrekend bestand telt.)
 
 ## 2. Klaarzetten
 
@@ -83,9 +74,13 @@ Repository [`jonasdaltongent/Interviewmail-Labo`](https://github.com/jonasdalton
 <https://jonasdaltongent.github.io/Interviewmail-Labo/>, de dia's: <https://jonasdaltongent.github.io/Interviewmail-Labo/presentatie.html>. Dat adres staat ook op dia 7, in
 `classroom.json` en in `lesdoelen.json`.
 
-### Stap 2 — De opdracht in Classroom, met de koppeling ✅ *concept op 10-10-2026*
+### Stap 2 — De opdracht in Classroom, met de koppeling ✅ *concept op 10-10-2026, ingepland op 12-10-2026*
 
-Als **concept** in [3MWWE - Informatica](https://classroom.google.com/c/MjUzNjQyOTk0NDFa). Toewijzen doe je zelf met **Toewijzen**.
+Als **concept** in [3MWWE - Informatica](https://classroom.google.com/c/MjUzNjQyOTk0NDFa), **ingepland**: Classroom
+publiceert de opdracht zelf op donderdag 15 oktober om 14.05, een half uur vóór het 8ste uur
+(`_afspraken/publiceren.md`). Op **Toewijzen** klikken hoeft niet meer. Teruggelezen via de API op 14-10-2026:
+`DRAFT`, ingepland, drie bijlagen; het Google-document *Interviewmail* is de versie van 12-10-2026 (zelfde
+inhoud als `werkdocument/Interviewmail.docx`).
 
 | | Opdracht: **Les 3 — De formele e-mail** |
 |---|---|
@@ -117,16 +112,20 @@ Klik op Inleveren, ten laatste vrijdag 16 oktober 2026 om 20.00 uur.
    (alleen vóór je de opdracht post).
 3. Voeg de lespagina toe met **Link**.
 
-### De AI-hul✅ **Aan het concept gehangen (10-10-2026).** Gemini Notebook *AI-hulp · Les 3 · De formele e-mail* in jouw profiel
+### De AI-hulp
+
+✅ **Aan het concept gehangen (10-10-2026).** Gemini Notebook *AI-hulp · Les 3 · De formele e-mail* in jouw profiel
 (dalton.gent), met als bron `https://jonasdaltongent.github.io/Interviewmail-Labo/ai-bron.txt` (de versie met de
 herstellingen van 10-10-2026), **Chat instellen** › **Aangepast** met de vaste instructie uit `_afspraken/ai-hulp.md`
 › **Korter** (teruggelezen). In het concept bijgevoegd met **Bestaande selecteren**, *Bovenaan de lesgroep
 plaatsen* uitgezet; teruggelezen via de API: drie bijlagen, nog altijd `DRAFT`.
 
+**De bron is nog die van 10-10-2026** (nagekeken op 14-10-2026). De wijzigingen van 12-10-2026 zitten er niet in:
+in stap 1 zegt de notebook nog *Vul bovenaan je naam, je klas en de datum in* (dat staat niet meer in het
+werkdocument), en bij *Een vraag stellen* *of het anoniem blijft* in plaats van *of haar naam in je verslag komt*.
+
 Een eerste notebook met dezelfde naam staat per ongeluk in het testaccount *demoleerling3* (de lesbouwer werkte
 eerst in het verkeerde Chrome-profiel). Die hangt nergens aan; wissen kan je zelf als je wil.
-
-.
 
 ### De demo klaarzetten (1 minuut)
 
@@ -136,14 +135,13 @@ ze en de lespagina in twee tabbladen.
 
 ### Afvinklijst vóór de les
 
-- [ ] De lespagina staat online en het adres op dia 7 klopt.
-- [ ] De opdracht staat klaar in `3MWWE - Informatica`, met de lespagina, de AI-hulp en *Interviewmail* als
-      **kopie per leerling**, en is toegewezen.
+- [x] De lespagina staat online en het adres op dia 7 klopt (nagekeken op 14-10-2026).
+- [x] De opdracht staat klaar in `3MWWE - Informatica`, met de lespagina, de AI-hulp en *Interviewmail* als
+      **kopie per leerling**, en is ingepland voor do 15-10 om 14.05 (nagekeken op 14-10-2026).
 - [ ] Het wachtwoord van de computers staat op het bord (niet op de dia's: die zijn openbaar).
 - [ ] Je eigen kopie van *Interviewmail* en de lespagina staan open in twee tabbladen voor de demo.
 - [ ] De Dalton-lesfiche staat in je planner (open `dalton-lesfiche.html`, klik op **Kopieer de fiche**, plak).
 - [ ] `presentatie.html` opent op de beamer; `N` toont je notities, `F` is volledig scherm.
-- [ ] Zijn `dalton_letop.webp` en `dalton_laptop.webp` er al? Zet ze dan op dia 6 en 7 (zie hierboven).
 
 ### 2b. Nagelezen klikpaden
 
@@ -218,11 +216,9 @@ cd "/Volumes/Littlecisboy/Google drive/Toegepaste Informatica/2026-2027/W07 - Le
 - Lukt het verklaren in deel 1 in 8 minuten (vijf rijen, alleen de laatste kolom)? De
   minimumroute slaat deel 1 over.
 - Neemt de leerling de opbouw van Noors e-mail over zonder haar zinnen te kopiëren?
-- Typen de leerlingen netjes in de vakken van het venster, of schuiven de tabellen in Google Documenten (het
-  midden-vak is hoog gemaakt)? Dit is nog niet in Google Documenten bekeken.
+- Typen de leerlingen netjes in de vakken van het venster, of schuiven de tabellen in Google Documenten? Op
+  14-10-2026 als pdf uit Google Documenten nagekeken: vier bladzijden, de tabellen en het venster staan goed.
 - Klopt de tijd van stap 5 (10 minuten) voor inleiding, midden en slot?
 - Geven de leerlingen in stap 6 bruikbare feedback met de checklist (top en tip), of vinken ze alles aan?
 - Kunnen de leerlingen van 3MWWE de AI-hulp openen, helpt hij, en klikken ze op de bronnummers?
 - Komt de leerling vanzelf op *u* en *uw*? Wat doen ze met de datum voor het antwoord (maandag 19 oktober)?
-- De dia's 6 en 7 passen met de mascotte erbij? (Gemeten zonder: de tekst blijft links; kijk na zodra de
-  poses er zijn.)
