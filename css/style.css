@@ -22,6 +22,8 @@
 /* Atkinson tekent de nul met een schuine streep (lijkt op Ø). Cijfers daarom uit een systeemlettertype. */
 @font-face { font-family: "Atkinson"; src: local("Segoe UI"), local("SegoeUI"), local("Arial"), local("Helvetica"), local("Roboto"); font-weight: 400; unicode-range: U+0030-0039; }
 @font-face { font-family: "Atkinson"; src: local("Segoe UI Bold"), local("SegoeUI-Bold"), local("Arial Bold"), local("Arial-BoldMT"), local("Helvetica Bold"), local("Roboto Bold"); font-weight: 700; unicode-range: U+0030-0039; }
+/* ook schuin: anders wordt "16.30 uur" in een cursief citaat 16.3Ø (MW les 4, 13-10-2026) */
+@font-face { font-family: "Atkinson"; src: local("Segoe UI Italic"), local("SegoeUI-Italic"), local("Arial Italic"), local("Arial-ItalicMT"), local("Helvetica Oblique"), local("Helvetica-Oblique"), local("Roboto Italic"), local("Roboto-Italic"); font-weight: 400; font-style: italic; unicode-range: U+0030-0039; }
 @font-face { font-family: "Montserrat"; src: url("../assets/fonts/montserrat-heavy.woff2") format("woff2"); font-weight: 700 900; font-style: normal; font-display: swap; }
 
 :root {
@@ -504,3 +506,45 @@ body:not([data-ai-hulp="aan"]) .ai-hulp { display: none !important; }
   .mail-voet { padding: .1rem .8rem .5rem; }
   .bouwplan { margin-bottom: .8rem; font-size: .9rem; }
 }
+
+/* ==========================================================================
+   Startpagina groter (Jonas, 13-10-2026, na ORLO les 07: "Misschien dat de logo's en structuur toch groter
+   moet"; _afspraken/lespagina.md): grotere beelden en logo's; vier beelden staan in 2 x 2.
+   Uit het sjabloon, in MWW les 3 gezet op 14-10-2026.
+   ========================================================================== */
+.nodig .mock { height: 172px; }
+.nodig .mock .logo, .nodig .mock .ic { width: 1.25rem; height: 1.25rem; }
+.nodig .mo-chip { font-size: .86rem; gap: .45rem; padding: .2rem .5rem; }
+.nodig .mo-titel { font-size: .92rem; }
+.nodig .mo-werk-kop { font-size: .8rem; }
+.nodig .mo-knop { font-size: .84rem; padding: .2rem .5rem; }
+.nodig .md-balk { height: 32px; font-size: .86rem; }
+.nodig .md-rij { font-size: .86rem; padding: .4rem .7rem; }
+.nodig .mw-balk { height: 32px; font-size: .86rem; }
+.nodig .mw-venster { font-size: .74rem; }  /* MWW les 3: het venster Nieuw bericht groeit mee met het beeld */
+.nodig .ml-balk { height: 20px; }
+.nodig .ml-route span { width: .9rem; height: .9rem; }
+.nodig .ml-tag { font-size: .78rem; }
+.nodig .ml-lijn { height: 8px; }
+.nodig .ml-hier { font-size: .86rem; }
+.nodig-naam { font-size: 1.12rem; margin-top: .8rem; }
+.nodig-naam .logo { width: 1.6em; height: 1.6em; vertical-align: -.45em; margin-right: .45rem; }
+.nodig-uitleg { font-size: 1rem; }
+.nodig-item::before { width: 2.1rem; height: 2.1rem; font-size: 1.1rem; }
+.nodig-item + .nodig-item::after { top: 4.6rem; }
+/* drie of vier beelden in twee kolommen (vier: 2 x 2; drie: het derde links op de tweede rij), geen pijl vooraan
+   een rij (ORLO les 07 en 09, 13-10-2026) */
+.nodig, .nodig.vier { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 2rem 2.4rem; }
+.nodig .nodig-item + .nodig-item::after { left: -1.7rem; }
+.nodig .nodig-item:nth-child(odd)::after { content: none; }
+.nodig.vier .mock-opdracht { grid-template-columns: 1fr 1fr; gap: .45rem; }
+@media (max-width: 899px) {
+  .nodig, .nodig.vier { grid-template-columns: minmax(0, 1fr); }
+  .nodig .nodig-item + .nodig-item::after { content: "↓"; left: 50%; top: -1.6rem; }
+}
+
+/* een tekening in een stap (stap 7: Hier lever je in, uit MW les 4); .wijs = het rode kader */
+.wijs { box-shadow: 0 0 0 2px #fff, 0 0 0 5px #C5221F; position: relative; z-index: 1; }
+.vert-kop { font-size: .95rem; margin: 0 0 .5rem; color: var(--navy-deep); }
+.todo-box + .vert-kop { margin-top: 1.4rem; }
+.card-body > .mock-opdracht { max-width: 480px; }

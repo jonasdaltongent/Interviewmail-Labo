@@ -272,8 +272,8 @@ Bcc en privacy verder. In les 30 komt de e-mail in het portfolio.
 
 ## 27. Inhoudsstructuur van de lespagina
 
-Start (*Wat heb je nodig?* in drie beelden: de opdracht, de lespagina, het werkdocument · *Na deze les kan
-je* · *Vast?* als rij) · Theoriekaart (kaartjes uit het vakinhoudbestand: de delen van een e-mail · Aan, Cc,
+Start (*Wat heb je nodig?* in drie beelden in twee kolommen: de opdracht, de lespagina, het werkdocument ·
+*Na deze les kan je* · *Vast?* als rij: *Hulp nodig?*, je buur, AI-hulp, je leraar) · Theoriekaart (kaartjes uit het vakinhoudbestand: de delen van een e-mail · Aan, Cc,
 Bcc · het onderwerp · de aanspreking · inleiding – midden – slot · een vraag stellen · slotgroet en
 handtekening · u-vorm · een testlezer · de AI-hulp) · stappen 1–7 · Extra (E-mailquiz) · checklist.
 

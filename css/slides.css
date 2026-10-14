@@ -133,6 +133,10 @@ body.show-notes .notes { display: block; }
 .hud kbd { background: #2A3973; border-radius: 4px; padding: 0 5px; color: #fff; }
 body.show-notes .hud, body:fullscreen .hud { display: none; }
 
+/* kloktijden op Zo werk je verder (sinds 11-10-2026): js/slides.js rekent ze uit (_afspraken/presentatie.md) */
+.kloklijst .tijd { font-size: 26px; font-weight: 700; color: var(--navy); margin-left: .35em; white-space: nowrap; }
+.kloklijst li[data-samen] .tijd { color: var(--ok); }
+
 /* Logo's (sinds 11-10-2026, _afspraken/vormgeving-en-techniek.md) */
 .logo { width: 1em; height: 1em; flex-shrink: 0; vertical-align: -.12em; object-fit: contain; }
 .url-balk { display: inline-flex; align-items: center; gap: 8px; }

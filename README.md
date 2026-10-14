@@ -24,7 +24,7 @@ W07 - Les 03 - MWW - De formele e-mail/
 ├── index.html              de lespagina: startpagina in beelden · route · één stap · checklist
 ├── presentatie.html        8 dia's; dia 1 is de vaste startdia "Zo start je"
 ├── css/style.css           lespagina (uit het sjabloon, met .nodig, .vast, .mail, .ccb, .bouwplan, de mascotte)
-├── css/slides.css          dia's (uit het sjabloon, met .startroute en .met-mascotte)
+├── css/slides.css          dia's (uit het sjabloon, met .startroute, .met-mascotte en .kloklijst)
 ├── js/script.js, js/slides.js
 ├── assets/                 logo's van het Onderzoekslabo en GO! Dalton Gent, lettertypes (OFL), mascotte Dalton
 ├── werkdocument/
@@ -54,8 +54,14 @@ opbouw over, niet de zinnen. Ze staan op de lespagina (stap 2) en in deel 1 van 
 
 ### 1b. Hoe de lespagina werkt
 
-- **Startpagina**: *Wat heb je nodig?* in drie beelden (de opdracht, de lespagina, het werkdocument), *Na deze
-  les kan je*, en *Vast?* als genummerde rij.
+- **Startpagina**: *Wat heb je nodig?* in drie grote beelden in twee kolommen (de opdracht, de lespagina, het
+  werkdocument), *Na deze les kan je*, en *Vast?* als genummerde rij: *Hulp nodig?*, je buur, de AI-hulp, je
+  leraar. Bijgewerkt op 14-10-2026 volgens `_afspraken/lespagina.md` (*Groot genoeg*, de kortere hulpvolgorde).
+- **Stap 7** toont onder *Wat moet je doen?* een tekening van de opdracht met **Inleveren** in een rood kader
+  (*Hier lever je in*, zoals MW les 4): bij 3MWb was *Waar moet ik inleveren?* de vraag die het vaakst kwam
+  (12-10-2026).
+- **Dia 7** toont kloktijden uit de planning (`_tools/zet_lesmomenten.py`): buiten de les die van do 15-10, 8ste
+  uur (tot 15.24); tijdens de les rekent ze vanaf nu tot de bel. **T** rekent opnieuw.
 - **Route** links, **één stap** in het midden, **checklist** rechts (20 taken). Op een smal scherm staat alles
   onder elkaar.
 - De **titel van de pagina** begint met *Lespagina · Les 3*: zo heet de link in de opdracht en het tabblad in
@@ -213,6 +219,7 @@ cd "/Volumes/Littlecisboy/Google drive/Toegepaste Informatica/2026-2027/W07 - Le
   Vergelijken ze vlot met de citaten in de tabel? Zet de buur in deel 4 een x in het vak?
 - Helpen de vaste startdia en de startpagina in beelden om zonder hulp tot bij de opdracht, de lespagina en het
   werkdocument te geraken, ook nu de klas het werkdocument voor het eerst zo gebruikt?
+- Vinden de leerlingen **Inleveren** zonder te vragen, met de tekening in stap 7?
 - Lukt het verklaren in deel 1 in 8 minuten (vijf rijen, alleen de laatste kolom)? De
   minimumroute slaat deel 1 over.
 - Neemt de leerling de opbouw van Noors e-mail over zonder haar zinnen te kopiëren?
