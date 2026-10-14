@@ -126,9 +126,12 @@ herstellingen van 10-10-2026), **Chat instellen** › **Aangepast** met de vaste
 › **Korter** (teruggelezen). In het concept bijgevoegd met **Bestaande selecteren**, *Bovenaan de lesgroep
 plaatsen* uitgezet; teruggelezen via de API: drie bijlagen, nog altijd `DRAFT`.
 
-**De bron is nog die van 10-10-2026** (nagekeken op 14-10-2026). De wijzigingen van 12-10-2026 zitten er niet in:
-in stap 1 zegt de notebook nog *Vul bovenaan je naam, je klas en de datum in* (dat staat niet meer in het
-werkdocument), en bij *Een vraag stellen* *of het anoniem blijft* in plaats van *of haar naam in je verslag komt*.
+**Nieuwe bron op 14-10-2026** (Jonas: "Ook de ai hulp"): `…/ai-bron.txt?v=2026-10-14`, de tekst van commit
+`a863096`, teruggelezen in de notebook (geen *naam, klas en datum* meer, *of haar naam in je verslag komt*, stap 7
+met het tabblad Google Classroom). **De oude bron** (`…/ai-bron.txt` zonder `?v=`, de tekst van 10-10-2026, met
+*of het anoniem blijft*) **staat er nog**: verwijderen is definitief, dus dat doe je zelf: in de notebook bij
+**Sources** naast die bron **⋮** › **Bron verwijderen** › **Verwijderen**. Tot dan antwoordt de AI-hulp uit
+allebei.
 
 Een eerste notebook met dezelfde naam staat per ongeluk in het testaccount *demoleerling3* (de lesbouwer werkte
 eerst in het verkeerde Chrome-profiel). Die hangt nergens aan; wissen kan je zelf als je wil.
