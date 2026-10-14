@@ -26,7 +26,7 @@ W07 - Les 03 - MWW - De formele e-mail/
 ├── css/style.css           lespagina (uit het sjabloon, met .nodig, .vast, .mail, .ccb, .bouwplan, de mascotte)
 ├── css/slides.css          dia's (uit het sjabloon, met .startroute, .met-mascotte en .kloklijst)
 ├── js/script.js, js/slides.js
-├── assets/                 logo's van het Onderzoekslabo en GO! Dalton Gent, lettertypes (OFL), mascotte Dalton
+├── assets/                 logo's van het Onderzoekslabo en GO! Dalton Gent, lettertypes (OFL), mascotte Dalton, beelden/ (Nano Banana)
 ├── werkdocument/
 │   ├── Interviewmail.docx          het werkdocument dat de leerling INLEVERT
 │   ├── maak_werkdocumenten.py      maakt het opnieuw (python-docx)
@@ -231,4 +231,9 @@ cd "/Volumes/Littlecisboy/Google drive/Toegepaste Informatica/2026-2027/W07 - Le
 - Klopt de tijd van stap 5 (10 minuten) voor inleiding, midden en slot?
 - Geven de leerlingen in stap 6 bruikbare feedback met de checklist (top en tip), of vinken ze alles aan?
 - Kunnen de leerlingen van 3MWWE de AI-hulp openen, helpt hij, en klikken ze op de bronnummers?
+- **De eerste beelden van Nano Banana** (14-10-2026, Jonas: "Laad maar op, we zullen het morgen eens testen!"):
+  mevrouw De Clercq als casusbeeld in stap 4 en op dia 8 (in de plaats van de mascotte), met *Gemaakt met AI*, en
+  Jongerenhuis De Lantaarn klein op dia 4. Maakt het de ontvanger concreter (formeel schrijven aan iemand die je niet
+  kent)? Reageren de leerlingen op het label *Gemaakt met AI*? De bron van de AI-hulp is niet aangepast (alleen het
+  label kwam erbij).
 - Komt de leerling vanzelf op *u* en *uw*? Wat doen ze met de datum voor het antwoord (maandag 19 oktober)?

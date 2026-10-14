@@ -548,3 +548,11 @@ body:not([data-ai-hulp="aan"]) .ai-hulp { display: none !important; }
 .vert-kop { font-size: .95rem; margin: 0 0 .5rem; color: var(--navy-deep); }
 .todo-box + .vert-kop { margin-top: 1.4rem; }
 .card-body > .mock-opdracht { max-width: 480px; }
+
+/* Een casusbeeld van Nano Banana naast de inleiding van een stap, met "Gemaakt met AI" eronder (sinds 14-10-2026). */
+.intro-casus { display: flex; gap: 1.2rem; align-items: center; margin-bottom: 1.3rem; }
+.intro-casus .intro { margin-bottom: 0; flex: 1; }
+.intro-casus figure { margin: 0; flex: 0 0 190px; }
+.intro-casus img { display: block; width: 100%; height: auto; border-radius: 10px; }
+.intro-casus figcaption { font-size: .8rem; color: var(--muted); text-align: right; margin-top: .2rem; }
+@media (max-width: 600px) { .intro-casus figure { flex-basis: 120px; } }

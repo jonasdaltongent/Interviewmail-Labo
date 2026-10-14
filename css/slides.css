@@ -143,3 +143,14 @@ body.show-notes .hud, body:fullscreen .hud { display: none; }
 .url-balk .logo, .bijl-chip .logo { width: 20px; height: 20px; }
 .met-logo { white-space: nowrap; }
 .met-logo .logo { margin-right: .25em; }
+
+/* Beelden van Nano Banana (_afspraken/vormgeving-en-techniek.md, Tekeningen en beelden, regel 9), sinds 14-10-2026.
+   .casus: een casusbeeld rechtsonder, in de plaats van de mascotte, met "Gemaakt met AI" eronder.
+   .sfeer: een klein sfeerbeeld rechtsboven, naast de titel. Versiering, dus alt="". Meet de dia. */
+.slide.met-casus > p:not(.kicker) { max-width: calc(100% - 410px); }   /* de titel houdt de volle breedte */
+.slide .casus { position: absolute; right: 40px; bottom: 28px; width: 370px; margin: 0; background: #fff;
+  border-radius: 16px; padding: 10px 10px 6px; box-shadow: 0 4px 18px rgba(29, 35, 64, .12); }
+.slide .casus img { display: block; width: 100%; height: auto; border-radius: 10px; }
+.slide .casus figcaption { font-size: 15px; color: var(--muted, #545B78); text-align: right; margin-top: 4px; }
+.slide .sfeer { position: absolute; right: 56px; top: 40px; width: 110px; height: auto; background: #fff;
+  border-radius: 14px; padding: 6px; box-shadow: 0 4px 18px rgba(29, 35, 64, .12); pointer-events: none; }
