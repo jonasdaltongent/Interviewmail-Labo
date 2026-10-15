@@ -478,7 +478,7 @@ Stap 7 Inleveren
 
 Controleren en inleveren
 
-Bijna klaar. Test eerst of je het onthouden hebt. Er wordt niets bewaard.
+Bijna klaar. Beantwoord eerst de drie vragen. Zijn ze alle drie juist? Dan zie je hieronder hoe je inlevert.
 
 1. Je nodigt 24 leerlingen uit voor je enquête. Waar zet je hun adressen?
 
@@ -497,6 +497,8 @@ Interview!!
 Kunt ge morgen na school?
 Het interview duurt ongeveer 20 minuten en kan op twee momenten.
 Alvast bedankt en tot dan!
+
+Beantwoord de drie vragen hierboven juist. Dan zie je hier hoe je inlevert.
 
 Wat moet je doen?
 
@@ -595,6 +597,6 @@ CHECKLIST (rechts op de lespagina)
 
 7 · Inleveren
 
-[ ] Zelftest gedaan
+[ ] Zelftest: alle drie juist
 [ ] Slotvraag in deel 5
 [ ] Werkdocument ingeleverd

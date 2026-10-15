@@ -31,6 +31,7 @@
   <symbol id="i-hand" viewBox="0 0 24 24"><path d="M8 12V6a1.5 1.5 0 0 1 3 0v5"/><path d="M11 10.5V4.5a1.5 1.5 0 0 1 3 0v6"/><path d="M14 10.5V6a1.5 1.5 0 0 1 3 0v7.5"/><path d="M8 11.5l-1.5-1.5a1.6 1.6 0 0 0-2.3 2.3l3.6 4.2A6.5 6.5 0 0 0 17 13.5"/></symbol>
   <symbol id="i-left" viewBox="0 0 24 24"><path d="M15 6l-6 6 6 6"/></symbol>
   <symbol id="i-right" viewBox="0 0 24 24"><path d="M9 6l6 6-6 6"/></symbol>
+  <symbol id="i-lock" viewBox="0 0 24 24"><rect x="5" y="11" width="14" height="10" rx="2"/><path d="M8 11V8a4 4 0 0 1 8 0v3"/></symbol>
 </svg>
 
 <div class="teacher-banner">Leraarweergave: de roze kaders tonen waar je een screenshot kan plaatsen. Leerlingen zien die kaders niet.</div>
@@ -571,7 +572,7 @@
           <img class="mascotte-kop" src="assets/mascotte/dalton_inleveren.webp" alt="" width="120" height="120">
         </header>
         <div class="card-body">
-          <p class="intro">Bijna klaar. Test eerst of je het onthouden hebt. Er wordt niets bewaard.</p>
+          <p class="intro">Bijna klaar. Beantwoord eerst de drie vragen. Zijn ze alle drie juist? Dan zie je hieronder hoe je inlevert.</p>
           <div class="quiz">
             <div class="quiz-q" data-ok="Juist. In Bcc ziet niemand de andere adressen." data-nok="Nog niet. Kijk naar stap 3: wie mag welk adres zien?">
               <p>1. Je nodigt 24 leerlingen uit voor je enquête. Waar zet je hun adressen?</p>
@@ -601,7 +602,8 @@
               <p class="feedback" role="status"></p>
             </div>
           </div>
-          <div class="todo-box">
+          <p class="slot" aria-live="polite"><svg class="ic ic-dicht" aria-hidden="true"><use href="#i-lock"/></svg><svg class="ic ic-open" aria-hidden="true"><use href="#i-check-circle"/></svg><span class="slot-tekst">Beantwoord de drie vragen hierboven juist. Dan zie je hier hoe je inlevert.</span></p>
+          <div class="todo-box" data-na-zelftest="c7a">
             <div class="todo-head"><h3><svg class="ic" aria-hidden="true"><use href="#i-list"/></svg> Wat moet je doen?</h3><div class="modus" role="group" aria-label="Hoe wil je de uitleg?"><button type="button" class="modus-btn" data-modus="stap" aria-pressed="true">Stap voor stap</button><button type="button" class="modus-btn" data-modus="kort" aria-pressed="false">Kort</button></div></div>
             <ol class="doe">
               <li><span class="doe-tekst">Loop de <strong>checklist</strong> na. Staat er nog iets open? Werk het eerst af.</span></li>
@@ -722,7 +724,7 @@
         <label class="cl-item"><input type="checkbox" id="c6c"><span>Ik paste iets aan en schreef op wat</span></label>
       </div>
       <div class="cl-group" data-step="7"><h3>7 · Inleveren</h3>
-        <label class="cl-item"><input type="checkbox" id="c7a"><span>Zelftest gedaan</span></label>
+        <label class="cl-item"><input type="checkbox" id="c7a"><span>Zelftest: alle drie juist</span></label>
         <label class="cl-item"><input type="checkbox" id="c7b"><span>Slotvraag in deel 5</span></label>
         <label class="cl-item"><input type="checkbox" id="c7c"><span>Werkdocument ingeleverd</span></label>
       </div>

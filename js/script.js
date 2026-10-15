@@ -8,7 +8,7 @@
  * - checklist: voortgang, afgewerkte stappen krijgen een vinkje in de route
  * - op een smal scherm toont de checklist alleen de taken van de huidige stap
  * - in de laatste stap (data-laatste-stap op body) staat de hele checklist open
- * - zelftest met directe feedback (wordt niet bewaard)
+ * - zelftest met directe feedback (wordt niet bewaard); inleveren pas zichtbaar als alles juist is
  * - screenshot-plaatsen: tonen de afbeelding alleen als het bestand bestaat
  * - melding als alles afgevinkt is
  *
@@ -186,6 +186,51 @@
         var ok = btn.hasAttribute('data-right');
         btn.classList.add(ok ? 'right' : 'wrong');
         if (fb) fb.textContent = ok ? (q.getAttribute('data-ok') || 'Juist!') : (q.getAttribute('data-nok') || 'Nog niet. Probeer opnieuw.');
+      });
+    });
+  });
+
+  /* ---------- 6b. Inleveren pas na de zelftest (15-10-2026) ----------
+   * Een todo-box met data-na-zelftest="<id van een vinkje>" blijft dicht tot alle vragen van de zelftest in
+   * dezelfde stap juist zijn (Jonas: anders slaan ze de zelftest over en leveren ze meteen in). Opnieuw
+   * proberen mag. Eenmaal open blijft hij open, ook na herladen, en het vinkje gaat aan. Zonder JavaScript
+   * en met ?leraar staat alles open. */
+  all('[data-na-zelftest]').forEach(function (box) {
+    var pane = box.closest('.pane');
+    var vragen = all('.quiz-q', pane);
+    var slot = pane.querySelector('.slot');
+    var tekst = slot && slot.querySelector('.slot-tekst');
+    var sleutel = 'open_' + pane.id;
+    var vink = document.getElementById(box.getAttribute('data-na-zelftest'));
+    function juist() { return vragen.filter(function (q) { return q.querySelector('button.right'); }).length; }
+    function toon(open) {
+      box.hidden = !open;
+      if (!slot) return;
+      slot.classList.toggle('open', open);
+      var n = vragen.length - juist();
+      if (tekst) tekst.textContent = open ? 'Alles juist. Zo lever je in:' :
+        'Nog ' + n + (n === 1 ? ' vraag' : ' vragen') + ' juist te beantwoorden. Dan zie je hier hoe je inlevert.';
+    }
+    function maakOpen() {
+      store(sleutel, true);
+      toon(true);
+      if (vink && !vink.checked) { vink.checked = true; vink.dispatchEvent(new Event('change')); }
+      setTimeout(function () {             // de regel net onder de vaste balk bovenaan, de stappen eronder
+        if (!slot) return;
+        var balk = document.querySelector('.topbar');
+        var marge = (balk && getComputedStyle(balk).position !== 'static' ? balk.offsetHeight : 0) + 16;
+        window.scrollTo({ top: slot.getBoundingClientRect().top + window.scrollY - marge, behavior: 'smooth' });
+      }, 700);
+    }
+    var open = teacherMode || load(sleutel, false) || !vragen.length;
+    toon(open);
+    if (open) return;
+    vragen.forEach(function (q) {
+      all('button', q).forEach(function (btn) {
+        btn.addEventListener('click', function () {
+          if (!box.hidden) return;
+          if (juist() === vragen.length) maakOpen(); else toon(false);
+        });
       });
     });
   });

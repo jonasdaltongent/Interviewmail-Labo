@@ -284,7 +284,8 @@ openklappen tot kleine stapjes met een beeld (*Stap voor stap / Kort*, sinds 14-
 ## 28. Interactieve functies
 
 Route met onthouden stap; checklist met voortgang en groene vinkjes; zelftest (3 vragen) en E-mailquiz (4
-vragen) met directe feedback; de knop *Stap voor stap / Kort*; `?leraar`; `data-ai-hulp="aan"` toont de AI-hulp.
+vragen) met directe feedback; in stap 7 verschijnen de stappen om in te leveren pas als de zelftest alle drie juist is
+(sinds 15-10-2026); de knop *Stap voor stap / Kort*; `?leraar`; `data-ai-hulp="aan"` toont de AI-hulp.
 `localStorage` alleen voor vinkjes, de stap en de keuze *Stap voor stap* of *Kort* (`labo_interviewmail_v1_`).
 
 ## Bronnenonderzoek

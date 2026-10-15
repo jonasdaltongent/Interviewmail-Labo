@@ -610,3 +610,15 @@ body:not([data-ai-hulp="aan"]) .ai-hulp { display: none !important; }
 .tt-tab .f-doc { background: #4285F4; }
 /* een grijze regel onder een handeling zonder stapjes (uit ORLO les 07) */
 .doe > li > .sub { display: block; color: var(--muted); font-size: .93rem; margin-top: .2rem; }
+
+/* Inleveren pas na de zelftest (15-10-2026, _afspraken/lespagina.md): de regel onder de zelftest.
+   Zonder JavaScript is er geen slot, dus ook geen regel. */
+.slot { display: none; }
+body.js .slot { display: flex; align-items: center; gap: .6rem; margin: 0 0 1.2rem; padding: .75rem 1rem;
+  border-radius: var(--radius-sm); background: var(--peri-soft); color: var(--navy-deep); font-weight: 700; }
+.slot .ic { width: 1.3rem; height: 1.3rem; flex-shrink: 0; }
+.slot-tekst { line-height: 1.35; }
+.slot .ic-open { display: none; }
+.slot.open { background: var(--ok-soft); color: var(--ok); }
+.slot.open .ic-dicht { display: none; }
+.slot.open .ic-open { display: inline-block; }

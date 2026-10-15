@@ -70,6 +70,13 @@ opbouw over, niet de zinnen. Ze staan op de lespagina (stap 2) en in deel 1 van 
   Jonas: "tot ze het systeem snappen"), ook in *Kort* in beeld; het vervangt de tekening *Hier lever je in*. Het stapje
   *Klik in het venster Je werk inleveren? nog eens op Inleveren* kwam erbij (het venster is nagekeken met *demoleerling3*).
   Bij 3MWb was *Waar moet ik inleveren?* de vraag die het vaakst kwam (12-10-2026).
+- **Inleveren pas na de zelftest** (15-10-2026, Jonas: "pas na het exit ticket … als alles juist is de stappen te
+  laten zien hoe ze moeten controleren en inleveren"): in stap 7 staat eerst de zelftest (drie vragen). *Wat moet je
+  doen?* (checklist, deel 5, inleveren en het filmpje) blijft dicht tot alle drie juist zijn; opnieuw proberen mag. Een
+  regel onder de vragen telt af (*Nog 2 vragen juist te beantwoorden*), en wordt groen: *Alles juist. Zo lever je in*.
+  Daarna blijft het open, ook na herladen, en *Zelftest: alle drie juist* in de checklist vinkt zichzelf aan. Met
+  `?leraar` en zonder JavaScript staat alles open. De knop **Inleveren** in Classroom zelf kan de pagina niet
+  tegenhouden.
 - **Dia 7** is de controle (*Waar zet je je begeleider?*, iedereen antwoordt met vingers), **dia 8** *Iedereen doet
   stap 1* (14-10-2026, `_afspraken/presentatie.md`).
 - **Dia 9** toont kloktijden uit de planning (`_tools/zet_lesmomenten.py`), met stap 1 als *samen ✓*: buiten de les
@@ -237,6 +244,8 @@ cd "/Volumes/Littlecisboy/Google drive/Toegepaste Informatica/2026-2027/W07 - Le
 
 ## 8. Wat nog moet blijken in de klas
 
+- **Inleveren pas na de zelftest**: maken ze de drie vragen, of zoeken ze **Inleveren** zelf in Classroom? Komen er nog
+  vragen *Hoe moet ik inleveren?*
 - **Het filmpje Inleveren** (15-10-2026, in de laatste stap, in elke les tot de leerlingen het systeem kennen): leveren ze
   in zonder te vragen? Kijken ze naar het filmpje, en klikken ze in het venster *Je werk inleveren?* nog eens op *Inleveren*?
 - **Stap voor stap / Kort** (14-10-2026, voor het eerst in 3MWWE): kiezen leerlingen zelf *Kort*, of laten ze alles
