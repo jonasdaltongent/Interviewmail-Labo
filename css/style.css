@@ -622,3 +622,5 @@ body.js .slot { display: flex; align-items: center; gap: .6rem; margin: 0 0 1.2r
 .slot.open { background: var(--ok-soft); color: var(--ok); }
 .slot.open .ic-dicht { display: none; }
 .slot.open .ic-open { display: inline-block; }
+
+.slot .codewoord { background: #fff; color: var(--navy-deep); letter-spacing: .06em; padding: .05rem .45rem; border-radius: 6px; border: 1px solid var(--peri); }

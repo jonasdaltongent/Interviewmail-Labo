@@ -165,7 +165,8 @@ aanpaste* · **deel 5** de exitvraag. Overal typt de leerling in een lichtblauw 
 meeleest maar niets moet doen · (c) 24 leerlingen van het 4de jaar die je uitnodigt voor je enquête · (d) je
 twee groepsgenoten, die moeten weten wat je vroeg. Vraag 1: *Waarom zet je de 24 leerlingen niet in Cc?*
 
-**Deel 5, de exitvraag:** *Welke twee dingen moet mevrouw De Clercq na het lezen van je e-mail zeker weten?*
+**Deel 5, codewoord en exitvraag:** eerst het codewoord van de zelftest (de lespagina toont het pas als de drie vragen
+van stap 7 juist zijn; sinds 15-10-2026), dan *Welke twee dingen moet mevrouw De Clercq na het lezen van je e-mail zeker weten?*
 
 **Verwachte antwoorden**
 

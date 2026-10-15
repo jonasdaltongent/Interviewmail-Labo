@@ -167,9 +167,13 @@ def main(leeg, met_x):
     bewaar(p, "s6-top", blok, [fitz.Rect(links, top.y0 - 2, rechts, antw_top.y1)])
     bewaar(p, "s6-tip", blok, [fitz.Rect(links, tip.y0 - 2, rechts, antw_tip.y1)])
     bewaar(p, "s6-aangepast", blok, [fitz.Rect(links, aangepast.y0 - 2, rechts, antw_aangepast.y1)])
-    vraag5 = tekst(p, "Welke twee dingen")
-    bewaar(p, "s7-deel5", rand(fitz.Rect(links, kop5.y0, rechts, antw5.y1), 8, 10),
-           [fitz.Rect(links, vraag5.y0 - 2, rechts, antw5.y1)])
+    # deel 5: eerst het codewoord van de zelftest (sinds 15-10-2026), dan de slotvraag
+    code, vraag5 = tekst(p, "Het codewoord"), tekst(p, "Welke twee dingen")
+    antw_code = [v for v in vakken if code.y1 < v.y0 < vraag5.y0][0]
+    antw_vraag = [v for v in vakken if v.y0 > vraag5.y1][0]
+    deel5 = rand(fitz.Rect(links, kop5.y0, rechts, antw_vraag.y1), 8, 10)
+    bewaar(p, "s7-codewoord", deel5, [fitz.Rect(links, code.y0 - 2, rechts, antw_code.y1)])
+    bewaar(p, "s7-deel5", deel5, [fitz.Rect(links, vraag5.y0 - 2, rechts, antw_vraag.y1)])
 
     # ---- de x in het eerste vak van deel 4
     p = bladzijde_met(fitz.open(met_x), "Feedback van je buur")

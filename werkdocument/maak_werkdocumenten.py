@@ -111,8 +111,11 @@ def interviewmail():
     vraag(doc, "Wat heb ik aangepast?")
     antwoordvak(doc, 1.2)
 
-    # ---- Deel 5
-    deel(doc, 5, "Slotvraag")
+    # ---- Deel 5: eerst het codewoord van de zelftest (15-10-2026, Jonas: "Codewoord idee is heel goed!"). De
+    # lespagina toont het pas als de drie vragen van stap 7 juist zijn; zo zie je wie de zelftest echt maakte.
+    deel(doc, 5, "Codewoord en slotvraag")
+    vraag(doc, "Het codewoord van de zelftest (stap 7 op de lespagina):")
+    antwoordvak(doc, 0.9)
     vraag(doc, "Welke twee dingen moet mevrouw De Clercq na het lezen van je e-mail zeker weten?")
     antwoordvak(doc, 1.8)
 

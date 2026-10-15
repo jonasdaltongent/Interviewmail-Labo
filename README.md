@@ -76,7 +76,10 @@ opbouw over, niet de zinnen. Ze staan op de lespagina (stap 2) en in deel 1 van 
   regel onder de vragen telt af (*Nog 2 vragen juist te beantwoorden*), en wordt groen: *Alles juist. Zo lever je in*.
   Daarna blijft het open, ook na herladen, en *Zelftest: alle drie juist* in de checklist vinkt zichzelf aan. Met
   `?leraar` en zonder JavaScript staat alles open. De knop **Inleveren** in Classroom zelf kan de pagina niet
-  tegenhouden.
+  tegenhouden; daarom het **codewoord** (15-10-2026, Jonas: "Codewoord idee is heel goed!"): de groene regel toont
+  *LANTAARN*, en de leerling typt het in het eerste vak van deel 5. Staat het er niet, dan is de zelftest niet (juist)
+  gemaakt. Het woord staat alleen in `data-codewoord` (niet in de tekst, dus niet in `ai-bron.txt`). Het Google-document
+  *Interviewmail* aan het concept is op 15-10-2026 om 11.39 vervangen (zelfde bestand, nog `DRAFT`).
 - **Dia 7** is de controle (*Waar zet je je begeleider?*, iedereen antwoordt met vingers), **dia 8** *Iedereen doet
   stap 1* (14-10-2026, `_afspraken/presentatie.md`).
 - **Dia 9** toont kloktijden uit de planning (`_tools/zet_lesmomenten.py`), met stap 1 als *samen ✓*: buiten de les
@@ -209,7 +212,8 @@ werkdocument. De e-mailregels komen uit `_vakinhoud/digitale-communicatie.md` (T
 - **Deel 2**: a **Aan** · b **Cc** · c **Bcc** · d **Cc**. Vraag 1: een e-mailadres is een persoonsgegeven; in Cc
   ziet iedereen de adressen van de anderen; met Bcc niet (zoals `respondent-02` in les 2).
 - **Deel 3**, de e-mail: zie de criteria in `lesvoorbereiding.md` §22 (20 punten).
-- **Deel 5**: wat je vraagt (een interview van 20 minuten op een van de twee momenten) en tegen wanneer je een
+- **Deel 5**: het codewoord **LANTAARN** (ontbreekt het, dan is de zelftest niet juist gemaakt; geen punten, wel een
+  gesprek) · de slotvraag: wat je vraagt (een interview van 20 minuten op een van de twee momenten) en tegen wanneer je een
   antwoord nodig hebt (vóór maandag 19 oktober).
 
 ### Essentiële fouten — geef hier altijd feedback op

@@ -194,7 +194,8 @@
    * Een todo-box met data-na-zelftest="<id van een vinkje>" blijft dicht tot alle vragen van de zelftest in
    * dezelfde stap juist zijn (Jonas: anders slaan ze de zelftest over en leveren ze meteen in). Opnieuw
    * proberen mag. Eenmaal open blijft hij open, ook na herladen, en het vinkje gaat aan. Zonder JavaScript
-   * en met ?leraar staat alles open. */
+   * en met ?leraar staat alles open. Heeft de slotregel data-codewoord, dan toont ze dat woord als alles
+   * juist is: de leerling typt het in het werkdocument (staat niet in de tekst, dus niet in ai-bron.txt). */
   all('[data-na-zelftest]').forEach(function (box) {
     var pane = box.closest('.pane');
     var vragen = all('.quiz-q', pane);
@@ -208,8 +209,19 @@
       if (!slot) return;
       slot.classList.toggle('open', open);
       var n = vragen.length - juist();
-      if (tekst) tekst.textContent = open ? 'Alles juist. Zo lever je in:' :
-        'Nog ' + n + (n === 1 ? ' vraag' : ' vragen') + ' juist te beantwoorden. Dan zie je hier hoe je inlevert.';
+      var code = slot.getAttribute('data-codewoord');   // het bewijs in het werkdocument (sinds 15-10-2026)
+      if (!tekst) return;
+      if (open && code) {
+        tekst.textContent = 'Alles juist. Jouw codewoord is ';
+        var b = document.createElement('strong');
+        b.className = 'codewoord';
+        b.textContent = code;
+        tekst.appendChild(b);
+        tekst.appendChild(document.createTextNode('. Typ het in je werkdocument. Zo lever je in:'));
+      } else {
+        tekst.textContent = open ? 'Alles juist. Zo lever je in:' :
+          'Nog ' + n + (n === 1 ? ' vraag' : ' vragen') + ' juist te beantwoorden. Dan zie je hier hoe je inlevert.';
+      }
     }
     function maakOpen() {
       store(sleutel, true);

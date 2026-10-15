@@ -505,10 +505,13 @@ Wat moet je doen?
 - Loop de checklist na. Staat er nog iets open? Werk het eerst af.
 
 -
-Beantwoord in deel 5 de slotvraag.
+Vul deel 5 in: het codewoord en de slotvraag.
 
 -
-Scroll naar Deel 5. Klik in het vak en typ je antwoord.
+Scroll naar Deel 5. Typ het codewoord in het eerste vak. Het codewoord staat in de groene regel hierboven.
+
+-
+Typ in het vak eronder je antwoord op de slotvraag.
 
 -
 Lever in.
@@ -598,5 +601,5 @@ CHECKLIST (rechts op de lespagina)
 7 · Inleveren
 
 [ ] Zelftest: alle drie juist
-[ ] Slotvraag in deel 5
+[ ] Codewoord en slotvraag in deel 5
 [ ] Werkdocument ingeleverd
