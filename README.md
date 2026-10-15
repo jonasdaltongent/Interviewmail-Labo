@@ -66,9 +66,10 @@ opbouw over, niet de zinnen. Ze staan op de lespagina (stap 2) en in deel 1 van 
   les begint in *Stap voor stap* (`data-modus-start="stap"`); de keuze wordt per les onthouden. *Hulp nodig?* is
   weg: wat erin stond, staat nu als grijze regel onder het stapje waar het misloopt (de vragen bij rij 2 tot 6
   in stap 2, de zinsbeginnen in stap 5), en het tipvak bevat de meest waarschijnlijke fout.
-- **Stap 7** toont onder *Wat moet je doen?* ook nog een tekening van de opdracht met **Inleveren** in een rood kader
-  (*Hier lever je in*, zoals MW les 4): zo staat ze ook in *Kort* in beeld: bij 3MWb was *Waar moet ik inleveren?* de vraag die het vaakst kwam
-  (12-10-2026).
+- **Stap 7** toont onder de handelingen het filmpje **Inleveren** (`assets/video/inleveren.mp4`, 10 seconden, 15-10-2026,
+  Jonas: "tot ze het systeem snappen"), ook in *Kort* in beeld; het vervangt de tekening *Hier lever je in*. Het stapje
+  *Klik in het venster Je werk inleveren? nog eens op Inleveren* kwam erbij (het venster is nagekeken met *demoleerling3*).
+  Bij 3MWb was *Waar moet ik inleveren?* de vraag die het vaakst kwam (12-10-2026).
 - **Dia 7** is de controle (*Waar zet je je begeleider?*, iedereen antwoordt met vingers), **dia 8** *Iedereen doet
   stap 1* (14-10-2026, `_afspraken/presentatie.md`).
 - **Dia 9** toont kloktijden uit de planning (`_tools/zet_lesmomenten.py`), met stap 1 als *samen ✓*: buiten de les
@@ -236,6 +237,8 @@ cd "/Volumes/Littlecisboy/Google drive/Toegepaste Informatica/2026-2027/W07 - Le
 
 ## 8. Wat nog moet blijken in de klas
 
+- **Het filmpje Inleveren** (15-10-2026, in de laatste stap, in elke les tot de leerlingen het systeem kennen): leveren ze
+  in zonder te vragen? Kijken ze naar het filmpje, en klikken ze in het venster *Je werk inleveren?* nog eens op *Inleveren*?
 - **Stap voor stap / Kort** (14-10-2026, voor het eerst in 3MWWE): kiezen leerlingen zelf *Kort*, of laten ze alles
   open? Klappen ze in *Kort* een regel open als ze vastzitten? Wordt stap 2 te lang, met de e-mails van Senne en
   Noor onder vijf stapjes?
