@@ -249,6 +249,12 @@ Op 20 punten (summatief voor `BV2_04.01` via het portfolio, volgens het lessenpl
 begeleider in *Aan* of de jongerenwerker in *Cc*; *hallo* of chattaal; geen naam onder de e-mail; in deel
 2 de respondenten in *Cc*.
 
+**Jonas' beslissingen bij het verbeteren** (18-10-2026, de eerste ronde met `_tools/verbeter_opdracht.py`):
+
+- Deel 4 valt weg: de leerlingen mochten het laten vallen door tijdtekort. Het geeft geen punten en telt niet als
+  leeg.
+- Gelijke antwoorden in deel 1 en 2 krijgen gewoon hun punten: samenwerken is geen probleem.
+
 ## 23. Feedback
 
 Tijdens de les met denkvragen (*"Lees je midden luidop: weet mevrouw De Clercq nu wanneer en hoe lang?"*).
